@@ -1,0 +1,10 @@
+Errore API Gemini: [v1/gemini-2.5-flash] 503: {
+  "error": {
+    "code": 503,
+    "message": "The model is overloaded. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+(Modello scelto: models/gemini-2.5-flash)
+Tip: controlla i modelli disponibili e le autorizzazioni della tua chiave.

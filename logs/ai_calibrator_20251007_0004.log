@@ -1,0 +1,7 @@
+[07/10/2025  0:04:29,70] START AI Calibrator 
+[2025-10-07 00:04:30] AI Calibrator v1.1 starting…
+[2025-10-07 00:04:30] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251006_0300.log (1264 min fa)
+[2025-10-07 00:04:30] Retrain stale (> 120 min).
+[2025-10-07 00:04:30] Opzione --macro-apply-if-stale non attiva → esco senza modifiche.
+[2025-10-07 00:04:30] [Telegram] Messaggio inviato.
+[07/10/2025  0:04:30,96] END AI Calibrator 

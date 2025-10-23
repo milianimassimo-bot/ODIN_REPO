@@ -1,0 +1,350 @@
+[07/10/2025  0:02:46,45] START Macro Auto Overrides 
+Analizzo: macro_ai_report_20251006_214416.txt
+✅ macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+{
+  "notes": "auto from macro_ai_report",
+  "global": {},
+  "asset_overrides": {}
+}
+✅ Messaggio Telegram inviato.
+[07/10/2025  0:02:47,66] END Macro Auto Overrides 
+[07/10/2025  0:11:51,14] START Macro Auto Overrides 
+Analizzo: macro_ai_report_20251006_221137.txt
+✅ macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+{
+  "notes": "auto from macro_ai_report",
+  "global": {},
+  "asset_overrides": {}
+}
+✅ Messaggio Telegram inviato.
+[07/10/2025  0:11:52,43] END Macro Auto Overrides 
+[07/10/2025  0:17:55,73] START Macro Auto Overrides 
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA
+Keyword: commods_up, gold_up, vol_normal
+Global caps: {'risk_caps_multiplier': 1.0}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, USD/CAD
+[07/10/2025  0:17:56,97] END Macro Auto Overrides 
+[07/10/2025  8:15:01,81] START Macro Auto Overrides 
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA
+Keyword: commods_up, gold_up, vol_normal
+Global caps: {'risk_caps_multiplier': 1.0}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, USD/CAD
+[07/10/2025  8:15:03,20] END Macro Auto Overrides 
+[07/10/2025 11:17:41,89] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA
+Keyword: gold_up, vol_normal
+Global caps: {'risk_caps_multiplier': 1.0}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, USD/CAD
+[DONE] macro_auto_overrides.py 
+[07/10/2025 22:15:01,67] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA
+Keyword: gold_up, usd_neutral
+Global caps: {}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, USD/CAD
+[DONE] macro_auto_overrides.py 
+[08/10/2025  8:15:01,50] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA
+Keyword: usd_neutral
+Global caps: {}
+Asset overrides: nessuno
+[DONE] macro_auto_overrides.py 
+[08/10/2025 13:26:39,76] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA
+Keyword: gold_up, risk_on
+Global caps: {'risk_caps_multiplier': 1.0}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, USD/CAD
+[DONE] macro_auto_overrides.py 
+[08/10/2025 15:30:33,50] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 217
+    overrides = build_overrides_from_keywords(hits)
+    ^^^^^^^^^
+IndentationError: expected an indented block after 'else' statement on line 216
+[DONE] macro_auto_overrides.py 
+[08/10/2025 15:31:00,95] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 217
+    overrides = build_overrides_from_keywords(hits)
+    ^^^^^^^^^
+IndentationError: expected an indented block after 'else' statement on line 216
+[DONE] macro_auto_overrides.py 
+[08/10/2025 15:38:30,07] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA
+Keyword: usd_neutral
+Global caps: {}
+Asset overrides: nessuno
+[DONE] macro_auto_overrides.py 
+[08/10/2025 15:44:54,33] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up']
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, usd_neutral
+Global caps: {}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, USD/CAD
+[DONE] macro_auto_overrides.py 
+[08/10/2025 15:50:52,79] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, gold_up, usd_neutral
+Global caps: {}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD
+[DONE] macro_auto_overrides.py 
+[08/10/2025 15:52:37,56] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, usd_neutral, vol_normal
+Global caps: {'risk_caps_multiplier': 1.0}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD
+[DONE] macro_auto_overrides.py 
+[08/10/2025 16:07:20,94] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, gold_up, usd_neutral
+Global caps: {}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD
+[DONE] macro_auto_overrides.py 
+[08/10/2025 22:15:01,70] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA
+Keyword: commods_up, gold_up, usd_neutral
+Global caps: {}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD
+[DONE] macro_auto_overrides.py 
+[09/10/2025  8:15:01,62] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, risk_on, usd_strong
+Global caps: {'risk_caps_multiplier': 1.0}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, EUR/USD, GBP/USD
+[DONE] macro_auto_overrides.py 
+[09/10/2025 22:15:01,79] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, gold_up, risk_off, usd_strong
+Global caps: {'risk_caps_multiplier': 0.85}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, EUR/USD, GBP/USD
+[DONE] macro_auto_overrides.py 
+[10/10/2025  8:15:01,59] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, usd_strong
+Global caps: {}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, EUR/USD, GBP/USD
+[DONE] macro_auto_overrides.py 
+[10/10/2025 22:15:02,16] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up', 'usd_strong']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, risk_off, usd_strong
+Global caps: {'risk_caps_multiplier': 0.85}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, EUR/USD, GBP/USD
+[DONE] macro_auto_overrides.py 
+[11/10/2025  8:15:01,58] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up', 'usd_strong']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, risk_high, risk_off, usd_strong
+Global caps: {'risk_caps_multiplier': 0.85}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, EUR/USD, GBP/USD
+[DONE] macro_auto_overrides.py 
+[12/10/2025  8:15:01,41] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up', 'usd_strong']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, risk_high, usd_strong
+Global caps: {'risk_caps_multiplier': 0.85}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, EUR/USD, GBP/USD
+[DONE] macro_auto_overrides.py 
+[13/10/2025  8:15:01,50] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up', 'usd_strong']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, risk_high, usd_strong
+Global caps: {'risk_caps_multiplier': 0.85}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, EUR/USD, GBP/USD
+[DONE] macro_auto_overrides.py 
+[14/10/2025  8:15:01,52] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up', 'usd_strong']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, risk_on, usd_strong, vol_normal
+Global caps: {'risk_caps_multiplier': 1.0}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, EUR/USD, GBP/USD
+[DONE] macro_auto_overrides.py 
+[15/10/2025  8:15:01,90] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, gold_up, usd_strong, vol_high
+Global caps: {'risk_caps_multiplier': 0.85}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, EUR/USD, GBP/USD
+[DONE] macro_auto_overrides.py 
+[16/10/2025  8:15:01,91] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up', 'usd_neutral']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, gold_up, usd_neutral
+Global caps: {}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD
+[DONE] macro_auto_overrides.py 
+[17/10/2025  8:15:01,87] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up']
+[Overrides] Guardrail: (gold_up/commods_up/num) + USD not weak → USD/CAD rimosso
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, gold_up, usd_neutral
+Global caps: {}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD
+[DONE] macro_auto_overrides.py 
+[18/10/2025  8:15:01,99] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up', 'usd_weak']
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, usd_weak
+Global caps: {}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, USD/CAD
+[DONE] macro_auto_overrides.py 
+[19/10/2025  8:15:02,27] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA
+Keyword: commods_up, gold_up, usd_weak
+Global caps: {}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, USD/CAD
+[DONE] macro_auto_overrides.py 
+[20/10/2025  8:15:01,55] START Macro Auto Overrides 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_auto_overrides.py 
+[DEBUG] augment from context: ['commods_up', 'usd_weak']
+macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+✅ Macro overrides aggiornati
+Sorgente: IA+Context
+Keyword: commods_up, risk_normal, risk_on, usd_weak
+Global caps: {'risk_caps_multiplier': 1.0}
+Asset overrides: GOLD, SILVER, AUD/USD, NZD/USD, USD/CAD
+[DONE] macro_auto_overrides.py 

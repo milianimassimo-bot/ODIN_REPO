@@ -1,0 +1,44 @@
+{
+  "id": "16d5942d",
+  "asof_utc": "2025-09-25T07:35:49+00:00",
+  "regime_sha1": "fe5f152282a354d9c73b14f7c16b39e0cc9b3792",
+  "asset": "SILVER",
+  "bucket": "XAU_XAG",
+  "status": "REJECTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "SILVER",
+    "symbol": "XAG/USD",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 43.74982,
+    "sl": 42.24626,
+    "tp": 46.75693,
+    "rr": 2.0,
+    "atr_d1": 0.75178,
+    "basis": {
+      "ema20_h4": 43.74982,
+      "ema50_d1": 40.32028,
+      "ema200_d1": 36.29396
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.75,
+    "note": "Clean trend structure, no immediate obstacles."
+  },
+  "risk": {
+    "accept": false,
+    "reason": "Unsupported instrument or min-lot would exceed tolerance",
+    "size_lots": 0.0,
+    "risk_pct": 0.0,
+    "caps_snapshot": {
+      "GLOBAL": 0.0,
+      "BUCKET:XAU_XAG": 0.0,
+      "ASSET:SILVER": 0.0
+    }
+  },
+  "notes": [
+    "RISK_REJECT: Unsupported instrument or min-lot would exceed tolerance"
+  ]
+}

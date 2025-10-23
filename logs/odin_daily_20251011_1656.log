@@ -1,0 +1,44 @@
+[11/10/2025 16:56:12,26] START ODIN_DAILY 
+--- MODULO 1: REGIME --- 
+--- Avvio Filtro di Regime ODIN v1.3.2 ---
+--- Avvio Preflight Check ---
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 352, in <module>
+    main()
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 241, in main
+    ASSET_RESOLVED = preflight_symbols(td, ASSET_PORTFOLIO, INTERVAL, OUTPUTSIZE)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 150, in preflight_symbols
+    _log("\n\u26a0\ufe0f  Preflight: esclusi per problemi:")
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 69, in _log
+    print(msg, flush=True)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 2-3: character maps to <undefined>
+--- MODULO 4: MAIN (with summary) --- 
+2025-10-11 16:56:19,987 | INFO | [PARAMS] Caricati da: C:\AUTOMAZIONE\params\current.json
+[MacroGate] risk_caps_multiplier=— | asset_overrides=AUD/USD, EUR/USD, GBP/USD, GOLD, NZD/USD, SILVER | guardrails={}
+2025-10-11 16:56:19,996 | INFO | --- Avvio Sala Decisionale ODIN v2.3 (PROD) ---
+2025-10-11 16:56:20,011 | INFO | Connessione a MT5 stabilita.
+2025-10-11 16:56:20,012 | INFO | Equity attuale: 5636.72 EUR
+2025-10-11 16:56:20,013 | INFO | Regime v1.3.2 OK (sha1 9de0608cb9)
+2025-10-11 16:56:21,112 | INFO | [SIG-DBG] EUR/JPY: WEEKLY: pullback dist_atr=1.35 non in [0.4,1.0]
+2025-10-11 16:56:21,112 | INFO | [NO-SIGNAL] EUR/JPY: WEEKLY: pullback dist_atr=1.35 non in [0.4,1.0]
+2025-10-11 16:56:22,217 | INFO | [SIG-DBG] GBP/JPY: WEEKLY: pullback dist_atr=1.22 non in [0.4,1.0]
+2025-10-11 16:56:22,218 | INFO | [NO-SIGNAL] GBP/JPY: WEEKLY: pullback dist_atr=1.22 non in [0.4,1.0]
+2025-10-11 16:56:23,313 | INFO | [SIG-DBG] GOLD: WEEKLY: pullback dist_atr=2.74 non in [0.4,1.4]
+2025-10-11 16:56:23,313 | INFO | [NO-SIGNAL] GOLD: WEEKLY: pullback dist_atr=2.74 non in [0.4,1.4]
+2025-10-11 16:56:24,411 | INFO | [SIG-DBG] SILVER: WEEKLY: ATR% 2.54 fuori [0.3,1.9]
+2025-10-11 16:56:24,412 | INFO | [NO-SIGNAL] SILVER: WEEKLY: ATR% 2.54 fuori [0.3,1.9]
+2025-10-11 16:56:25,929 | INFO | [SIG-DBG] SP500: WEEKLY: ATR% 19.26 fuori [0.3,1.6]
+2025-10-11 16:56:25,929 | INFO | [NO-SIGNAL] SP500: WEEKLY: ATR% 19.26 fuori [0.3,1.6]
+2025-10-11 16:56:26,964 | INFO | [SIG-DBG] AUD/USD: BB_MR: R2=0.41 > r2_max=0.2
+2025-10-11 16:56:26,964 | INFO | [NO-SIGNAL] AUD/USD: BB_MR: R2=0.41 > r2_max=0.2
+2025-10-11 16:56:28,068 | INFO | [NO-SIGNAL] EUR/USD: nessun setup valido (regime=LATERALE).
+2025-10-11 16:56:29,176 | INFO | [NO-SIGNAL] GBP/USD: nessun setup valido (regime=LATERALE).
+2025-10-11 16:56:29,176 | INFO | [SIG-DBG] USD/JPY: BB_MR: ADX=18.37 >= adx_max=18.0
+2025-10-11 16:56:29,176 | INFO | [NO-SIGNAL] USD/JPY: BB_MR: ADX=18.37 >= adx_max=18.0
+2025-10-11 16:56:29,176 | INFO | --- Sessione decisionale completata ---
+2025-10-11 16:56:29,176 | INFO | Connessione a MT5 chiusa.
+[11/10/2025 16:56:30,34] END ODIN_DAILY 

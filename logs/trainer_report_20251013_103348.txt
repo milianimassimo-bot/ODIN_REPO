@@ -1,0 +1,9 @@
+=== ODIN Trainer Report 2025-10-13T10:33:49Z ===
+DB: C:\AUTOMAZIONE\logs\odin_ml.db
+
+EUR/USD/WEEKLY | n=2 winrate=1.00 avg=35.00
+GOLD/BB_MR | n=2 winrate=0.00 avg=-12.50
+
+--- Decisioni ---
+⚪️ EUR/USD/WEEKLY: solo 2 trade, serve ≥4
+⚪️ GOLD/BB_MR: solo 2 trade, serve ≥4

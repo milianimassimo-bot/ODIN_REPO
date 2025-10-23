@@ -1,0 +1,79 @@
+{
+  "global": {
+    "risk_caps": {
+      "global": 0.0255,
+      "bucket": 0.017,
+      "asset": 0.0085,
+      "trade": 0.006375
+    },
+    "watchdog_policy": {
+      "breakeven": {
+        "tf": "H4",
+        "trigger_atr": 1.0,
+        "require_adx_bars": 3
+      },
+      "trailing": {
+        "tf": "H4",
+        "atr_mult": 1.5
+      },
+      "cooloff_hours_after_regime_mismatch": 8,
+      "max_daily_actions": 6
+    },
+    "paused": false
+  },
+  "asset_overrides": {
+    "GOLD": {
+      "allow_new_entries": false
+    },
+    "SILVER": {
+      "allow_new_entries": false
+    },
+    "AUD/USD": {
+      "allow_new_entries": false
+    },
+    "NZD/USD": {
+      "allow_new_entries": false
+    },
+    "USD/CAD": {
+      "allow_new_entries": true
+    },
+    "GBP/USD": {
+      "allow_new_entries": false
+    },
+    "EUR/USD": {
+      "allow_new_entries": false
+    }
+  },
+  "WEEKLY": {
+    "default": {},
+    "per_asset": {
+      "GOLD": {
+        "pullback_atr_max": 1.7,
+        "atr_pct_max": 2.7
+      },
+      "SILVER": {
+        "pullback_atr_max": 1.4,
+        "atr_pct_max": 2.2
+      },
+      "AUD/USD": {},
+      "NZD/USD": {}
+    }
+  },
+"BB_MR": {
+  "default": {
+    "r2_max": 0.15,
+    "adx_max": 18,
+    "atr_pct_min": 0.25,
+    "atr_pct_max": 1.40,
+    "bb_len": 20,
+    "bb_std": 2.0,
+    "rsi_len": 14,
+    "confirm_close_inside_band": true,
+    "tp_to_ma": true
+  },
+  "per_asset": {
+    "AUD/USD": { "r2_max": 0.15, "adx_max": 18 },
+    "GBP/USD": { "r2_max": 0.15, "adx_max": 18 }
+    /* …lascia gli altri come sono… */
+  }
+}

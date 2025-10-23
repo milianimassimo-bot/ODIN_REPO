@@ -1,0 +1,44 @@
+{
+  "id": "70918428",
+  "asof_utc": "2025-09-27T21:15:16+00:00",
+  "regime_sha1": "8981306d9da60928bd307abdc60f986f7447d625",
+  "asset": "SILVER",
+  "bucket": "XAU_XAG",
+  "status": "REJECTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "SILVER",
+    "symbol": "XAG/USD",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 44.72696,
+    "sl": 42.9478,
+    "tp": 48.28528,
+    "rr": 2.0,
+    "atr_d1": 0.88958,
+    "basis": {
+      "ema20_h4": 44.72696,
+      "ema50_d1": 40.72829,
+      "ema200_d1": 36.52057
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.7,
+    "note": "Trend pulito, nessun ostacolo evidente."
+  },
+  "risk": {
+    "accept": true,
+    "reason": null,
+    "size_lots": 0.01,
+    "risk_pct": 1.0,
+    "caps_snapshot": {
+      "GLOBAL": 0.0,
+      "BUCKET:XAU_XAG": 0.0,
+      "ASSET:SILVER": 0.0
+    }
+  },
+  "notes": [
+    "EXECUTION_FAIL: ordine non eseguito su MT5"
+  ]
+}

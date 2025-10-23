@@ -1,0 +1,1 @@
+❌ Chiave Gemini mancante nel .env

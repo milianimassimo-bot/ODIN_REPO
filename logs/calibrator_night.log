@@ -1,0 +1,120 @@
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+[BOOT] AutoGate attivo → applico logica su retrain_metrics.json
+
+[AG] load json: C:\AUTOMAZIONE\params\retrain_metrics.json exists=True type=dict
+[AG] assets loaded: 18 → ['AUD/CAD', 'CHF/JPY', 'EUR/AUD', 'CAD/JPY', 'GBP/JPY', 'AUD/JPY', 'USD/JPY', 'EUR/JPY', 'NZD/JPY', 'NZD/USD', 'NZD/CAD', 'USD/SEK', 'EUR/NZD', 'AUD/CHF', 'GBP/NZD', 'USD/NOK', 'GOLD', 'SILVER']
+[AG] ENABLE=True  METRICS=C:\AUTOMAZIONE\params\retrain_metrics.json
+[AG] strategies considered: ['BB_MR', 'WEEKLY']
+[AG] thresholds: TR≥4, PF≥1.1, EXP≥0.0, DD≤12.0
+[AG] asset AUD/CAD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] AUD/CAD: already allow=False, no change
+[AG] asset CHF/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] CHF/JPY: already allow=False, no change
+[AG] asset EUR/AUD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] EUR/AUD: already allow=False, no change
+[AG] asset CAD/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] CAD/JPY: already allow=False, no change
+[AG] asset GBP/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] GBP/JPY: already allow=False, no change
+[AG] asset AUD/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] AUD/JPY: already allow=False, no change
+[AG] asset USD/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] USD/JPY: already allow=False, no change
+[AG] asset EUR/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] EUR/JPY: already allow=False, no change
+[AG] asset NZD/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] NZD/JPY: already allow=False, no change
+[AG] asset NZD/USD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] CHANGE NZD/USD: allow True -> False (negativo)
+[AG] asset NZD/CAD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] NZD/CAD: already allow=False, no change
+[AG] asset USD/SEK: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] USD/SEK: already allow=False, no change
+[AG] asset EUR/NZD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] EUR/NZD: already allow=False, no change
+[AG] asset AUD/CHF: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] AUD/CHF: already allow=False, no change
+[AG] asset GBP/NZD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] GBP/NZD: already allow=False, no change
+[AG] asset USD/NOK: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] USD/NOK: already allow=False, no change
+[AG] asset GOLD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] CHANGE GOLD: allow True -> False (negativo)
+[AG] asset SILVER: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] CHANGE SILVER: allow True -> False (negativo)
+[WRITE] Nessuna modifica ai parametri.
+
+--- REPORT ---
+🤖 AI Calibrator
+Azione: MACRO+AUTOGATE
+Changed: …macro caps/allow entries aggiornati…; AutoGate NZD/USD: allow_new_entries True -> False (negativo); AutoGate GOLD: allow_new_entries True -> False (negativo); AutoGate SILVER: allow_new_entries True -> False (negativo)
+AutoGate: AutoGate NZD/USD: allow_new_entries True -> False (negativo); AutoGate GOLD: allow_new_entries True -> False (negativo); AutoGate SILVER: allow_new_entries True -> False (negativo)
+Softeners: —
+Expired/Reverted: —
+--------------
+
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+[BOOT] AutoGate attivo → applico logica su retrain_metrics.json
+
+[AG] load json: C:\AUTOMAZIONE\params\retrain_metrics.json exists=True type=dict
+[AG] assets loaded: 18 → ['AUD/CAD', 'CHF/JPY', 'EUR/AUD', 'CAD/JPY', 'GBP/JPY', 'AUD/JPY', 'USD/JPY', 'EUR/JPY', 'NZD/JPY', 'NZD/USD', 'NZD/CAD', 'USD/SEK', 'EUR/NZD', 'AUD/CHF', 'GBP/NZD', 'USD/NOK', 'GOLD', 'SILVER']
+[AG] ENABLE=True  METRICS=C:\AUTOMAZIONE\params\retrain_metrics.json
+[AG] strategies considered: ['BB_MR', 'WEEKLY']
+[AG] thresholds: TR≥4, PF≥1.1, EXP≥0.0, DD≤12.0
+[AG] asset AUD/CAD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] AUD/CAD: already allow=False, no change
+[AG] asset CHF/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] CHF/JPY: already allow=False, no change
+[AG] asset EUR/AUD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] EUR/AUD: already allow=False, no change
+[AG] asset CAD/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] CAD/JPY: already allow=False, no change
+[AG] asset GBP/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] GBP/JPY: already allow=False, no change
+[AG] asset AUD/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] AUD/JPY: already allow=False, no change
+[AG] asset USD/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] USD/JPY: already allow=False, no change
+[AG] asset EUR/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] EUR/JPY: already allow=False, no change
+[AG] asset NZD/JPY: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] NZD/JPY: already allow=False, no change
+[AG] asset NZD/USD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] CHANGE NZD/USD: allow True -> False (negativo)
+[AG] asset NZD/CAD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] NZD/CAD: already allow=False, no change
+[AG] asset USD/SEK: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] USD/SEK: already allow=False, no change
+[AG] asset EUR/NZD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] EUR/NZD: already allow=False, no change
+[AG] asset AUD/CHF: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] AUD/CHF: already allow=False, no change
+[AG] asset GBP/NZD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] GBP/NZD: already allow=False, no change
+[AG] asset USD/NOK: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] USD/NOK: already allow=False, no change
+[AG] asset GOLD: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] CHANGE GOLD: allow True -> False (negativo)
+[AG] asset SILVER: {'WEEKLY': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}, 'BB_MR': {'tr': 0, 'pf': 0.0, 'exp': 0.0, 'dd': 0.0}}
+[AG] CHANGE SILVER: allow True -> False (negativo)
+[WRITE] Nessuna modifica ai parametri.
+
+--- REPORT ---
+🤖 AI Calibrator
+Azione: MACRO+AUTOGATE
+Changed: …macro caps/allow entries aggiornati…; AutoGate NZD/USD: allow_new_entries True -> False (negativo); AutoGate GOLD: allow_new_entries True -> False (negativo); AutoGate SILVER: allow_new_entries True -> False (negativo)
+AutoGate: AutoGate NZD/USD: allow_new_entries True -> False (negativo); AutoGate GOLD: allow_new_entries True -> False (negativo); AutoGate SILVER: allow_new_entries True -> False (negativo)
+Softeners: —
+Expired/Reverted: —
+--------------
+

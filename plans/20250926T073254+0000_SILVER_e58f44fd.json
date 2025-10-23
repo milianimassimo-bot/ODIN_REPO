@@ -1,0 +1,44 @@
+{
+  "id": "e58f44fd",
+  "asof_utc": "2025-09-26T07:32:54+00:00",
+  "regime_sha1": "476c6fdf83f180cd6f95606ac6fc507f637aa162",
+  "asset": "SILVER",
+  "bucket": "XAU_XAG",
+  "status": "COMMITTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "SILVER",
+    "symbol": "XAG/USD",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 44.2485,
+    "sl": 42.64448,
+    "tp": 47.45653,
+    "rr": 2.0,
+    "atr_d1": 0.80201,
+    "basis": {
+      "ema20_h4": 44.2485,
+      "ema50_d1": 40.51137,
+      "ema200_d1": 36.41919
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.7,
+    "note": "Trend pulito, nessun ostacolo evidente."
+  },
+  "risk": {
+    "accept": true,
+    "reason": null,
+    "size_lots": 0.01,
+    "risk_pct": 1.0,
+    "caps_snapshot": {
+      "GLOBAL": 1.0,
+      "BUCKET:XAU_XAG": 1.0,
+      "ASSET:SILVER": 0.0
+    }
+  },
+  "notes": [
+    "NOTIFIED_TELEGRAM"
+  ]
+}

@@ -1,0 +1,19 @@
+[RUN] health_monitor.py --all 
+[TG] http=200 ok=True resp='{"ok":true,"result":{"message_id":1686,"sender_chat":{"id":-1002752265278,"title":"segnali daily","type":"channel"},"chat":{"id":-1002752265278,"title":"segnali daily","type":"channel"},"date":1760979'
+[HEALTH] • MT5: MT5 OK — equity=5636.72 EUR
+[HEALTH] • ENV: OK
+[HEALTH] • STALENESS:
+[HEALTH]    - Params current.json: STALE 3526 min (> 1440) — C:\AUTOMAZIONE\params\current.json
+[HEALTH] • LOG: OK
+[HEALTH] • DISK: 17.15 GB liberi
+[HEALTH] • System UTC: 2025-10-20 17:05:35
+
+[INFO] Help:
+[TG] http=200 ok=True resp='{"ok":true,"result":{"message_id":1687,"sender_chat":{"id":-1002752265278,"title":"segnali daily","type":"channel"},"chat":{"id":-1002752265278,"title":"segnali daily","type":"channel"},"date":1760979'
+[HEALTH] • MT5: MT5 OK — equity=5636.72 EUR
+[HEALTH] • ENV: OK
+[HEALTH] • STALENESS:
+[HEALTH]    - Params current.json: STALE 3526 min (> 1440) — C:\AUTOMAZIONE\params\current.json
+[HEALTH] • LOG: OK
+[HEALTH] • DISK: 17.15 GB liberi
+[HEALTH] • System UTC: 2025-10-20 17:05:37

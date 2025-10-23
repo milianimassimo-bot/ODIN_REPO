@@ -1,0 +1,11 @@
+Errore API Gemini: [v1/gemini-1.5-flash-latest] 404: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash-latest is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+
+ℹ️ Suggerimenti:
+- Imposta GEMINI_MODEL=gemini-1.5-flash-latest (o gemini-1.5-pro-latest) nel .env
+- Verifica i modelli abilitati: GET https://generativelanguage.googleapis.com/v1/models?key=YOUR_KEY

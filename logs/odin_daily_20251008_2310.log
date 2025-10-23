@@ -1,0 +1,43 @@
+[08/10/2025 23:10:01,60] START ODIN_DAILY 
+--- MODULO 1: REGIME --- 
+--- Avvio Filtro di Regime ODIN v1.3.2 ---
+--- Avvio Preflight Check ---
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 352, in <module>
+    main()
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 241, in main
+    ASSET_RESOLVED = preflight_symbols(td, ASSET_PORTFOLIO, INTERVAL, OUTPUTSIZE)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 150, in preflight_symbols
+    _log("\n\u26a0\ufe0f  Preflight: esclusi per problemi:")
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 69, in _log
+    print(msg, flush=True)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 2-3: character maps to <undefined>
+--- MODULO 4: MAIN (with summary) --- 
+2025-10-08 23:10:09,221 | INFO | [PARAMS] Caricati da: C:\AUTOMAZIONE\params\current.json
+2025-10-08 23:10:09,223 | INFO | --- Avvio Sala Decisionale ODIN v2.3 (PROD) ---
+2025-10-08 23:10:09,240 | INFO | Connessione a MT5 stabilita.
+2025-10-08 23:10:09,240 | INFO | Equity attuale: 5636.72 EUR
+2025-10-08 23:10:09,240 | INFO | Regime v1.3.2 OK (sha1 609b5e6b5f)
+2025-10-08 23:10:10,353 | INFO | [SIG-DBG] WEEKLY EUR/JPY: pullback dist_atr=3.45 non in [0.4,1.0]
+2025-10-08 23:10:10,353 | INFO | [NO-SIGNAL] EUR/JPY: nessun segnale valido per regime=TRENDING.
+2025-10-08 23:10:11,424 | INFO | [SIG-DBG] WEEKLY GBP/JPY: pullback dist_atr=3.58 non in [0.4,1.0]
+2025-10-08 23:10:11,424 | INFO | [NO-SIGNAL] GBP/JPY: nessun segnale valido per regime=TRENDING.
+2025-10-08 23:10:12,538 | INFO | [SIG-DBG] WEEKLY GOLD: pullback dist_atr=4.20 non in [0.4,1.8]
+2025-10-08 23:10:12,538 | INFO | [NO-SIGNAL] GOLD: nessun segnale valido per regime=TRENDING.
+2025-10-08 23:10:13,661 | INFO | [SIG-DBG] WEEKLY SILVER: turbolenza alta vs contesto (atrp/bbw)
+2025-10-08 23:10:13,661 | INFO | [NO-SIGNAL] SILVER: nessun segnale valido per regime=TRENDING.
+2025-10-08 23:10:14,941 | INFO | [SIG-DBG] WEEKLY SP500: ATR% 22.22 fuori bounds [0.3,1.6]
+2025-10-08 23:10:14,941 | INFO | [NO-SIGNAL] SP500: nessun segnale valido per regime=TRENDING.
+2025-10-08 23:10:16,057 | INFO | [SIG-DBG] BB_MR EUR/USD: R2=0.4594038099 > r2_max=None
+2025-10-08 23:10:16,057 | INFO | [NO-SIGNAL] EUR/USD: nessun segnale valido per regime=LATERALE (Compressione).
+2025-10-08 23:10:17,124 | INFO | [SIG-DBG] BB_MR AUD/USD: R2=0.5693812816 > r2_max=0.18
+2025-10-08 23:10:17,124 | INFO | [NO-SIGNAL] AUD/USD: nessun segnale valido per regime=LATERALE.
+2025-10-08 23:10:18,196 | INFO | [NO-SIGNAL] GBP/USD: nessun segnale valido per regime=LATERALE.
+2025-10-08 23:10:19,274 | INFO | [NO-SIGNAL] USD/JPY: nessun segnale valido per regime=LATERALE.
+2025-10-08 23:10:19,274 | INFO | --- Sessione decisionale completata ---
+2025-10-08 23:10:19,274 | INFO | Connessione a MT5 chiusa.
+[08/10/2025 23:10:20,28] END ODIN_DAILY 

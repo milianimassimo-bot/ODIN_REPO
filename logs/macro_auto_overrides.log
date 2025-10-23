@@ -1,0 +1,58 @@
+Analizzo: macro_ai_report_20251004_223951.txt
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 139, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 122, in main
+    print(f"\u2705 macro_overrides.json aggiornato: {out}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+Analizzo: macro_ai_report_20251005_061011.txt
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 139, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 122, in main
+    print(f"\u2705 macro_overrides.json aggiornato: {out}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+Analizzo: macro_ai_report_20251006_061012.txt
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 139, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 122, in main
+    print(f"\u2705 macro_overrides.json aggiornato: {out}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+Analizzo: macro_ai_report_20251006_201018.txt
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 139, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 122, in main
+    print(f"\u2705 macro_overrides.json aggiornato: {out}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+Analizzo: macro_ai_report_20251006_214416.txt
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 139, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_auto_overrides.py", line 122, in main
+    print(f"\u2705 macro_overrides.json aggiornato: {out}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+Analizzo: macro_ai_report_20251006_214416.txt
+✅ macro_overrides.json aggiornato: C:\AUTOMAZIONE\params\macro_overrides.json
+{
+  "notes": "auto from macro_ai_report",
+  "global": {},
+  "asset_overrides": {}
+}
+✅ Messaggio Telegram inviato.

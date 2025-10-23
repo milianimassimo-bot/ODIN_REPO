@@ -1,0 +1,44 @@
+{
+  "id": "0ce097de",
+  "asof_utc": "2025-09-25T21:18:26+00:00",
+  "regime_sha1": "4e66f4167683027778624102f30a2d03c1a2ad98",
+  "asset": "SP500",
+  "bucket": "INDEX",
+  "status": "REJECTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "SP500",
+    "symbol": "SPX",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 0.23474,
+    "sl": 0.15381,
+    "tp": 0.3966,
+    "rr": 2.0,
+    "atr_d1": 0.04046,
+    "basis": {
+      "ema20_h4": 0.23474,
+      "ema50_d1": 0.16957,
+      "ema200_d1": 0.11368
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.75,
+    "note": "Structure OK; no nearby resistance at entry."
+  },
+  "risk": {
+    "accept": true,
+    "reason": null,
+    "size_lots": 15.69,
+    "risk_pct": 1.0,
+    "caps_snapshot": {
+      "GLOBAL": 0.0,
+      "BUCKET:INDEX": 0.0,
+      "ASSET:SP500": 0.0
+    }
+  },
+  "notes": [
+    "EXECUTION_FAILED_MT5"
+  ]
+}

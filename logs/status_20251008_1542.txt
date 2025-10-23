@@ -1,0 +1,8 @@
+🛰️ ODIN / STATUS — 2025-10-08 15:42:11Z
+Equity=€5636.72 | Expo=0 pos | Trades open=0
+Paused=NO | RiskCaps g/b/a/t=0.03/0.02/0.01/0.0075
+Allow entries: AUD/USD, GOLD, NZD/USD, SILVER
+Regimes: GOLD:TRENDING (ATR% 1.29) | SILVER:TRENDING (ATR% 2.09) | SP500:TRENDING (ATR% 4.50) | EUR/USD:LATERALE (Compressione) (ATR% 0.52) | AUD/USD:LATERALE (ATR% 0.55) |…
+Macro: Risk=normal | USD=neutral | Vol=normal | Commd=strong
+Macro nums: spx5d=— vix=— eur5d=— gold5d=—
+WD: BE={'tf': 'H4', 'trigger_atr': 1.0, 'require_adx_bars': 3} | TRL={'tf': 'H4', 'atr_mult': 1.5} | CooloffH=8 | MaxAct=6

@@ -1,0 +1,44 @@
+{
+  "id": "2f401ae5",
+  "asof_utc": "2025-09-28T21:15:18+00:00",
+  "regime_sha1": "a631304914d345913c7d906e00acfa11d57080bf",
+  "asset": "SP500",
+  "bucket": "INDEX",
+  "status": "REJECTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "SP500",
+    "symbol": "SPX",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 0.23293,
+    "sl": 0.15206,
+    "tp": 0.39465,
+    "rr": 2.0,
+    "atr_d1": 0.04043,
+    "basis": {
+      "ema20_h4": 0.23293,
+      "ema50_d1": 0.17194,
+      "ema200_d1": 0.11483
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.7,
+    "note": "Trend pulito, nessun ostacolo evidente."
+  },
+  "risk": {
+    "accept": false,
+    "reason": "Insufficient margin: req 142000.68 > free*buffer 2798.49",
+    "size_lots": 0.0,
+    "risk_pct": 0.0,
+    "caps_snapshot": {
+      "GLOBAL": 0.0,
+      "BUCKET:INDEX": 0.0,
+      "ASSET:SP500": 0.0
+    }
+  },
+  "notes": [
+    "RISK_REJECT: Insufficient margin: req 142000.68 > free*buffer 2798.49"
+  ]
+}

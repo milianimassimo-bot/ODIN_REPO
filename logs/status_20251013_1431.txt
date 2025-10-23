@@ -1,0 +1,8 @@
+🛰️ ODIN / STATUS — 2025-10-13 14:31:15Z
+Equity=€5636.72 | Expo=0 pos | Trades open=0
+Paused=NO | RiskCaps g/b/a/t=—/—/—/—
+Allow entries: AUD/USD, EUR/JPY, EUR/USD, GBP/USD, GOLD, SILVER, SP500, USD/JPY
+Regimes: GOLD:TRENDING (ATR% 2.15) | SILVER:TRENDING (ATR% 2.61) | SP500:TRENDING (ATR% 4.50) | AUD/USD:LATERALE (ATR% 0.62) | EUR/USD:LATERALE (ATR% 0.53) | USD/JPY:LATERALE (ATR% 0.82)
+Macro: Risk=high | USD=strong | Vol=normal | Commd=strong
+Macro nums: spx5d=— vix=— eur5d=— gold5d=—
+WD: BE={} | TRL={} | CooloffH=— | MaxAct=—

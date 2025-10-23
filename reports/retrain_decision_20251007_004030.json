@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-10-06T22:40:30Z",
+  "mode": "FRESH_RETRAIN+MACRO",
+  "retrain_log": "C:\\AUTOMAZIONE\\logs\\retrain_light_20251006_0300.log",
+  "changed": [
+    "risk_caps x1.0"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cfc36e49",
+  "asof_utc": "2025-09-24T21:02:48+00:00",
+  "regime_sha1": "06fdfe4a5f62bcfec36b9667296cf7fdab8e59f9",
+  "asset": "GOLD",
+  "bucket": "XAU_XAG",
+  "status": "COMMITTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "GOLD",
+    "symbol": "XAU/USD",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 3747.902498,
+    "sl": 3661.398919,
+    "tp": 3920.909656,
+    "rr": 2.0,
+    "atr_d1": 43.25179,
+    "basis": {
+      "ema20_h4": 3747.902498,
+      "ema50_d1": 3530.365753,
+      "ema200_d1": 3281.339822
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.72,
+    "note": "Healthy trend; macro_unknown"
+  },
+  "risk": {
+    "accept": true,
+    "reason": null,
+    "size_lots": 0.01,
+    "risk_pct": 1.0,
+    "caps_snapshot": {
+      "GLOBAL": 0.0,
+      "BUCKET:XAU_XAG": 0.0,
+      "ASSET:GOLD": 0.0
+    }
+  },
+  "notes": [
+    "NOTIFIED_TELEGRAM"
+  ]
+}

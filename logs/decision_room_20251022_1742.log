@@ -1,0 +1,86 @@
+2025-10-22 17:42:32,304 | INFO | [PARAMS] Caricati da: C:\AUTOMAZIONE\params\current.json
+[MacroGate] risk_caps_multiplier=1.0 | asset_overrides=AUD/USD, GOLD, NZD/USD, SILVER, USD/CAD | guardrails={}
+ODIN bootstrap…
+2025-10-22 17:42:32,315 | INFO | --- Avvio Sala Decisionale ODIN v2.4.2 (PROD) ---
+2025-10-22 17:42:32,353 | INFO | Connessione a MT5 stabilita.
+2025-10-22 17:42:32,354 | INFO | Equity attuale: 5636.72 EUR
+2025-10-22 17:42:32,355 | INFO | Regime v2.2.1 OK (sha1 3771cd24a4)
+2025-10-22 17:42:32,356 | INFO | [Universe] Attivi 16 asset dal file universe.json
+2025-10-22 17:42:32,357 | INFO | [Universe] attivo: 16 asset selezionati nella giornata.
+2025-10-22 17:42:32,358 | INFO | [Sentinel] Roster caricato correttamente. 9 strategie analizzate.
+2025-10-22 17:42:32,358 | INFO | [Universe] CHF/JPY: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='TRENDING', want='WEEKLY'
+WARNING:cache_ohlc:[CACHE] CHF/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CHF/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CHF/JPY 1day (400 barre)
+2025-10-22 17:42:33,601 | INFO | [SIG-DBG] CHF/JPY: WEEKLY: pullback dist_atr=2.06 non in range dinamico [0.35,1.8]
+2025-10-22 17:42:33,601 | INFO | [NO-SIGNAL] CHF/JPY: WEEKLY: pullback dist_atr=2.06 non in range dinamico [0.35,1.8]
+2025-10-22 17:42:33,601 | INFO | [Universe] EUR/NZD: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='TRENDING', want='WEEKLY'
+WARNING:cache_ohlc:[CACHE] EUR/NZD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/NZD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/NZD 1day (400 barre)
+2025-10-22 17:42:34,744 | INFO | [SIG-DBG] EUR/NZD: WEEKLY: pullback dist_atr=0.24 non in range dinamico [0.35,1.8]
+2025-10-22 17:42:34,744 | INFO | [NO-SIGNAL] EUR/NZD: WEEKLY: pullback dist_atr=0.24 non in range dinamico [0.35,1.8]
+2025-10-22 17:42:34,744 | INFO | [Universe] GBP/NZD: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='TRENDING', want='WEEKLY'
+WARNING:cache_ohlc:[CACHE] GBP/NZD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: GBP/NZD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato GBP/NZD 1day (400 barre)
+2025-10-22 17:42:36,051 | INFO | [SIG-DBG] GBP/NZD: WEEKLY: pullback dist_atr=0.11 non in range dinamico [0.35,1.8]
+2025-10-22 17:42:36,052 | INFO | [NO-SIGNAL] GBP/NZD: WEEKLY: pullback dist_atr=0.11 non in range dinamico [0.35,1.8]
+2025-10-22 17:42:36,052 | INFO | [Universe] AUD/JPY: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+WARNING:cache_ohlc:[CACHE] AUD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: AUD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato AUD/JPY 1day (260 barre)
+2025-10-22 17:42:37,159 | INFO | [SIG-DBG] AUD/JPY: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:37,161 | INFO | [NO-SIGNAL] AUD/JPY: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:37,161 | INFO | [Universe] CAD/CHF: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+WARNING:cache_ohlc:[CACHE] CAD/CHF 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CAD/CHF 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/CHF 1day (260 barre)
+2025-10-22 17:42:38,285 | INFO | [SIG-DBG] CAD/CHF: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:38,285 | INFO | [NO-SIGNAL] CAD/CHF: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:38,285 | INFO | [Universe] CAD/JPY: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+WARNING:cache_ohlc:[CACHE] CAD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CAD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/JPY 1day (260 barre)
+2025-10-22 17:42:39,406 | INFO | [SIG-DBG] CAD/JPY: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:39,407 | INFO | [NO-SIGNAL] CAD/JPY: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:39,407 | INFO | [Universe] EUR/AUD: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+WARNING:cache_ohlc:[CACHE] EUR/AUD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/AUD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/AUD 1day (260 barre)
+2025-10-22 17:42:40,764 | INFO | [SIG-DBG] EUR/AUD: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:40,764 | INFO | [NO-SIGNAL] EUR/AUD: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:40,764 | INFO | [Universe] GBP/AUD: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+WARNING:cache_ohlc:[CACHE] GBP/AUD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: GBP/AUD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato GBP/AUD 1day (260 barre)
+2025-10-22 17:42:41,923 | INFO | [SIG-DBG] GBP/AUD: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:41,923 | INFO | [NO-SIGNAL] GBP/AUD: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:41,923 | INFO | [Universe] NZD/CAD: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+WARNING:cache_ohlc:[CACHE] NZD/CAD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/CAD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/CAD 1day (260 barre)
+2025-10-22 17:42:43,014 | INFO | [SIG-DBG] NZD/CAD: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:43,015 | INFO | [NO-SIGNAL] NZD/CAD: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:43,015 | INFO | [Universe] NZD/JPY: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+WARNING:cache_ohlc:[CACHE] NZD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/JPY 1day (260 barre)
+2025-10-22 17:42:44,117 | INFO | [SIG-DBG] NZD/JPY: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:44,117 | INFO | [NO-SIGNAL] NZD/JPY: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:44,117 | INFO | [Universe] NZD/USD: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+WARNING:cache_ohlc:[CACHE] NZD/USD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/USD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/USD 1day (260 barre)
+2025-10-22 17:42:45,273 | INFO | [SIG-DBG] NZD/USD: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:45,273 | INFO | [NO-SIGNAL] NZD/USD: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:45,274 | INFO | [Universe] USD/JPY: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+WARNING:cache_ohlc:[CACHE] USD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: USD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato USD/JPY 1day (260 barre)
+2025-10-22 17:42:46,379 | INFO | [SIG-DBG] USD/JPY: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+INFO:cache_ohlc:[CACHE] HIT: USD/JPY 1day
+2025-10-22 17:42:46,404 | INFO | [SIG-DBG] USD/JPY: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:46,404 | INFO | [NO-SIGNAL] USD/JPY: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-22 17:42:46,404 | INFO | --- Sessione decisionale completata ---
+2025-10-22 17:42:47,339 | INFO | Connessione a MT5 chiusa.

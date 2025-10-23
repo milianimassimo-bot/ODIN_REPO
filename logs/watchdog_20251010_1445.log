@@ -1,0 +1,6 @@
+[10/10/2025 14:45:02,43] START WATCHDOG 
+2025-10-10 14:45:04,335 | INFO | ODIN Watchdog bootstrap…
+2025-10-10 14:45:04,465 | INFO | [PARAMS] Caricati da: C:\AUTOMAZIONE\params\current.json
+2025-10-10 14:45:04,465 | INFO | ODIN Watchdog — 2025-10-10 12:45:04 UTC — equity=5636.72 EUR
+2025-10-10 14:45:04,465 | INFO | Nessuna posizione aperta.
+[10/10/2025 14:45:05,50] END WATCHDOG 

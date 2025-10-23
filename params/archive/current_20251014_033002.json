@@ -1,0 +1,98 @@
+{
+  "WEEKLY": {
+    "default": {
+      "ema_period": 20,
+      "adx_min": 18.0,
+      "r2_min": 0.25,
+      "pullback_atr_min": 0.4,
+      "pullback_atr_max": 1.3,
+      "atr_pct_min": 0.3,
+      "atr_pct_max": 3.0,
+      "sl_atr_mult": 2.5,
+      "rr": 1.8,
+      "anti_chase_atr": 1.6,
+      "max_weekly_range_atr": 1.6,
+      "confirm_h4": true
+    },
+    "per_asset": {
+      "GOLD": {
+        "pullback_atr_max": 1.9,
+        "atr_pct_max": 3.0
+      },
+      "SILVER": {
+        "pullback_atr_max": 1.7,
+        "atr_pct_max": 3.0
+      },
+      "SP500": {
+        "pullback_atr_max": 1.7,
+        "atr_pct_max": 25.0
+      }
+    }
+  },
+  "BB_MR": {
+    "default": {
+      "adx_max": 22.0,
+      "r2_max": 0.3,
+      "atr_pct_min": 0.25,
+      "atr_pct_max": 1.4,
+      "bb_len": 20,
+      "bb_std": 2.0,
+      "rsi_len": 14,
+      "rsi_buy": 30.0,
+      "rsi_sell": 70.0,
+      "confirm_close_inside_band": true,
+      "tp_to_ma": true,
+      "atr_stop_mult": 1.5,
+      "tp_atr": null,
+      "sl_over_band_atr": null,
+      "bbw_relax": 1.2
+    },
+    "per_asset": {
+      "AUD/USD": {
+        "r2_max": 0.3,
+        "adx_max": 22.0
+      },
+      "GBP/USD": {
+        "r2_max": 0.3,
+        "adx_max": 22.0
+      },
+      "EUR/USD": {
+        "r2_max": 0.35,
+        "adx_max": 24.0
+      }
+    }
+  },
+  "asset_overrides": {
+    "EUR/USD": {
+      "allow_new_entries": false
+    },
+    "GBP/USD": {
+      "allow_new_entries": false
+    },
+    "AUD/USD": {
+      "allow_new_entries": false
+    },
+    "USD/JPY": {
+      "allow_new_entries": true
+    },
+    "EUR/JPY": {
+      "allow_new_entries": false
+    },
+    "GOLD": {
+      "allow_new_entries": false
+    },
+    "SILVER": {
+      "allow_new_entries": false
+    },
+    "SP500": {
+      "allow_new_entries": true
+    },
+    "NZD/USD": {
+      "allow_new_entries": false
+    }
+  },
+  "disabled_assets": [],
+  "global": {
+    "risk_caps": {}
+  }
+}

@@ -1,0 +1,80 @@
+2025-09-26 19:55:22,340 | INFO | --- Avvio Sala Decisionale ODIN v2.4 (DEV_TEST) ---
+2025-09-26 19:55:22,362 | INFO | Connessione a MT5 stabilita (DEV_TEST).
+2025-09-26 19:55:22,364 | INFO | Equity attuale: 5172.39 EUR
+2025-09-26 19:55:22,378 | INFO | Regime v1.3.1 OK (sha1 7ee1aec096)
+2025-09-26 19:55:22,380 | INFO | [GOLD] Regime TRENDING → builder DAILY
+2025-09-26 19:55:24,197 | INFO | MT5 caps GOLD: minVol=0.01, step=0.01, tickVal=0.8547958320155232, digits=2
+2025-09-26 19:55:24,206 | INFO | MT5 order_send: {'action': 1, 'symbol': 'GOLD', 'volume': 0.01, 'type': 0, 'price': 3781.74, 'sl': 3668.45, 'tp': 3928.09, 'deviation': 20, 'magic': 231120, 'comment': 'ODIN_DAILY_GOLD', 'type_time': 0, 'type_filling': 0}
+2025-09-26 19:55:24,234 | INFO | ORDINE ESEGUITO GOLD: ticket=5011732519, price=3781.74, sl=3668.45, tp=3928.09, vol=0.01
+2025-09-26 19:55:24,250 | INFO | [EXECUTED] GOLD eseguito su MT5. Ticket: 5011732519
+2025-09-26 19:55:25,128 | INFO | [SILVER] Regime TRENDING → builder DAILY
+2025-09-26 19:55:26,793 | INFO | MT5 caps SILVER: minVol=0.01, step=0.01, tickVal=4.273979160077616, digits=3
+2025-09-26 19:55:26,793 | INFO | MT5 order_send: {'action': 1, 'symbol': 'SILVER', 'volume': 0.01, 'type': 0, 'price': 46.574, 'sl': 42.984, 'tp': 47.796, 'deviation': 20, 'magic': 231120, 'comment': 'ODIN_DAILY_SILVER', 'type_time': 0, 'type_filling': 0}
+2025-09-26 19:55:26,823 | INFO | ORDINE ESEGUITO SILVER: ticket=5011732521, price=46.574, sl=42.984, tp=47.796, vol=0.01
+2025-09-26 19:55:26,827 | INFO | [EXECUTED] SILVER eseguito su MT5. Ticket: 5011732521
+2025-09-26 19:55:27,682 | INFO | [SP500] Regime TRENDING → builder DAILY
+2025-09-26 19:55:29,953 | INFO | MT5 caps Usa500: minVol=0.5, step=0.5, tickVal=0.01, digits=2
+2025-09-26 19:55:29,972 | INFO | [REJECTED] SP500: RISK_REJECT: Insufficient margin: req 141851.66 > free*buffer 3314.51
+2025-09-26 19:55:30,928 | INFO | [EUR/USD] Regime LATERALE (Compressione) → builder COMPRESSION_BREAKOUT (autorizzato)
+2025-09-26 19:55:32,836 | INFO | [EUR/USD] Skip strategia: BBW 0.0173 non in compressione (soglia: 0.0083).
+2025-09-26 19:55:32,836 | INFO | [USD/JPY] Regime LATERALE (Compressione) → builder COMPRESSION_BREAKOUT (autorizzato)
+2025-09-26 19:55:34,446 | INFO | [USD/JPY] Skip strategia: BBW 0.0205 non in compressione (soglia: 0.0080).
+2025-09-26 19:55:34,446 | INFO | [GBP/USD] Regime 'LATERALE' o asset non autorizzato per laterali. Skip.
+2025-09-26 19:55:34,447 | INFO | [OIL_WTI] Regime 'LATERALE' o asset non autorizzato per laterali. Skip.
+2025-09-26 19:55:34,447 | INFO | [AUD/USD] Regime 'INDEFINITO' o asset non autorizzato per laterali. Skip.
+2025-09-26 19:55:34,447 | INFO | [EUR/JPY] Regime 'INDEFINITO' o asset non autorizzato per laterali. Skip.
+2025-09-26 19:55:34,447 | INFO | [GBP/JPY] Regime 'INDEFINITO' o asset non autorizzato per laterali. Skip.
+2025-09-26 19:55:34,447 | INFO | --- Sessione decisionale completata ---
+2025-09-26 19:55:34,448 | INFO | Connessione a MT5 chiusa.
+2025-09-27 00:35:47,471 | INFO | --- Avvio Sala Decisionale ODIN v2.4 (DEV_TEST) ---
+2025-09-27 00:35:47,487 | INFO | Connessione a MT5 stabilita (DEV_TEST).
+2025-09-27 00:35:47,487 | INFO | Equity attuale: 5049.72 EUR
+2025-09-27 00:35:47,501 | INFO | Regime v1.3.1 OK (sha1 4918dff44f)
+2025-09-27 00:35:47,501 | INFO | [GOLD] Regime TRENDING → builder DAILY
+2025-09-27 00:35:49,171 | INFO | MT5 caps GOLD: minVol=0.01, step=0.01, tickVal=0.8543357539513028, digits=2
+2025-09-27 00:35:49,171 | INFO | MT5 order_send: {'action': 1, 'symbol': 'GOLD', 'volume': 0.01, 'type': 0, 'price': 3761.19, 'sl': 3668.06, 'tp': 3933.57, 'deviation': 20, 'magic': 231120, 'comment': 'ODIN_DAILY_GOLD', 'type_time': 0, 'type_filling': 0}
+2025-09-27 00:35:49,210 | ERROR | Esecuzione fallita GOLD: retcode=10018, commento=Market closed
+2025-09-27 00:35:49,221 | ERROR | [REJECTED] GOLD: EXECUTION_FAIL: ordine non eseguito su MT5
+2025-09-27 00:35:50,113 | INFO | [SILVER] Regime TRENDING → builder DAILY
+2025-09-27 00:35:51,828 | INFO | MT5 caps SILVER: minVol=0.01, step=0.01, tickVal=4.271678769756514, digits=3
+2025-09-27 00:35:51,830 | INFO | MT5 order_send: {'action': 1, 'symbol': 'SILVER', 'volume': 0.01, 'type': 0, 'price': 46.079, 'sl': 42.984, 'tp': 47.796, 'deviation': 20, 'magic': 231120, 'comment': 'ODIN_DAILY_SILVER', 'type_time': 0, 'type_filling': 0}
+2025-09-27 00:35:51,859 | ERROR | Esecuzione fallita SILVER: retcode=10018, commento=Market closed
+2025-09-27 00:35:51,873 | ERROR | [REJECTED] SILVER: EXECUTION_FAIL: ordine non eseguito su MT5
+2025-09-27 00:35:52,719 | INFO | [SP500] Regime TRENDING → builder DAILY
+2025-09-27 00:35:55,083 | INFO | MT5 caps Usa500: minVol=0.5, step=0.5, tickVal=0.01, digits=2
+2025-09-27 00:35:55,094 | INFO | [REJECTED] SP500: RISK_REJECT: Insufficient margin: req 142034.66 > free*buffer 2798.49
+2025-09-27 00:35:55,897 | INFO | [EUR/USD] Regime LATERALE (Compressione) → builder COMPRESSION_BREAKOUT (autorizzato)
+2025-09-27 00:35:57,756 | INFO | [EUR/USD] Skip strategia: BBW 0.0167 non in compressione (soglia: 0.0083).
+2025-09-27 00:35:57,757 | INFO | [USD/JPY] Regime LATERALE (Compressione) → builder COMPRESSION_BREAKOUT (autorizzato)
+2025-09-27 00:35:59,336 | INFO | [USD/JPY] Skip strategia: BBW 0.0205 non in compressione (soglia: 0.0080).
+2025-09-27 00:35:59,336 | INFO | [AUD/USD] Regime 'LATERALE' o asset non autorizzato per laterali. Skip.
+2025-09-27 00:35:59,336 | INFO | [GBP/USD] Regime 'LATERALE' o asset non autorizzato per laterali. Skip.
+2025-09-27 00:35:59,336 | INFO | [OIL_WTI] Regime 'LATERALE' o asset non autorizzato per laterali. Skip.
+2025-09-27 00:35:59,338 | INFO | [EUR/JPY] Regime 'INDEFINITO' o asset non autorizzato per laterali. Skip.
+2025-09-27 00:35:59,338 | INFO | [GBP/JPY] Regime 'INDEFINITO' o asset non autorizzato per laterali. Skip.
+2025-09-27 00:35:59,338 | INFO | --- Sessione decisionale completata ---
+2025-09-27 00:35:59,338 | INFO | Connessione a MT5 chiusa.
+2025-09-27 00:36:09,988 | INFO | --- Avvio Sala Decisionale ODIN v2.4 (DEV_TEST) ---
+2025-09-27 00:36:10,008 | INFO | Connessione a MT5 stabilita (DEV_TEST).
+2025-09-27 00:36:10,009 | INFO | Equity attuale: 5049.72 EUR
+2025-09-27 00:36:10,011 | INFO | Regime v1.3.1 OK (sha1 4918dff44f)
+2025-09-27 00:36:10,014 | INFO | [GOLD] Regime TRENDING → builder DAILY
+2025-09-27 00:36:11,580 | INFO | MT5 caps GOLD: minVol=0.01, step=0.01, tickVal=0.8543357539513028, digits=2
+2025-09-27 00:36:11,580 | INFO | GOLD: skip apertura — già presente posizione su asset (policy=ONE_PER_ASSET).
+2025-09-27 00:36:12,487 | INFO | [SILVER] Regime TRENDING → builder DAILY
+2025-09-27 00:36:14,072 | INFO | MT5 caps SILVER: minVol=0.01, step=0.01, tickVal=4.271678769756514, digits=3
+2025-09-27 00:36:14,072 | INFO | SILVER: skip apertura — già presente posizione su asset (policy=ONE_PER_ASSET).
+2025-09-27 00:36:14,921 | INFO | [SP500] Regime TRENDING → builder DAILY
+2025-09-27 00:36:17,048 | INFO | MT5 caps Usa500: minVol=0.5, step=0.5, tickVal=0.01, digits=2
+2025-09-27 00:36:17,060 | INFO | [REJECTED RISK] SP500: RISK_REJECT: Insufficient margin: req 142034.66 > free*buffer 2798.49
+2025-09-27 00:36:17,862 | INFO | [EUR/USD] Regime LATERALE (Compressione) → builder COMPRESSION_BREAKOUT (autorizzato)
+2025-09-27 00:36:19,432 | INFO | [EUR/USD] Skip strategia: BBW 0.0167 non in compressione (soglia: 0.0083).
+2025-09-27 00:36:19,432 | INFO | [USD/JPY] Regime LATERALE (Compressione) → builder COMPRESSION_BREAKOUT (autorizzato)
+2025-09-27 00:36:20,985 | INFO | [USD/JPY] Skip strategia: BBW 0.0205 non in compressione (soglia: 0.0080).
+2025-09-27 00:36:20,985 | INFO | [AUD/USD] Regime 'LATERALE' o asset non autorizzato. Skip.
+2025-09-27 00:36:20,985 | INFO | [GBP/USD] Regime 'LATERALE' o asset non autorizzato. Skip.
+2025-09-27 00:36:20,985 | INFO | [OIL_WTI] Regime 'LATERALE' o asset non autorizzato. Skip.
+2025-09-27 00:36:20,985 | INFO | [EUR/JPY] Regime 'INDEFINITO' o asset non autorizzato. Skip.
+2025-09-27 00:36:20,985 | INFO | [GBP/JPY] Regime 'INDEFINITO' o asset non autorizzato. Skip.
+2025-09-27 00:36:20,985 | INFO | --- Sessione decisionale completata ---
+2025-09-27 00:36:20,985 | INFO | Connessione a MT5 chiusa.

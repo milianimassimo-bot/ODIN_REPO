@@ -1,0 +1,537 @@
+{
+  "generated_utc": "2025-10-22T22:45:43Z",
+  "items": [
+    {
+      "asset": "CHF/JPY",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.46,
+          "ema50-ema200": 5.91458,
+          "slope50": 0.72665,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.46,
+          "BBW": 0.0438,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "CHF/JPY"
+    },
+    {
+      "asset": "EUR/AUD",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.61,
+          "ema50-ema200": 0.02338,
+          "slope50": 0.00119,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.61,
+          "BBW": 0.0239,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "EUR/AUD"
+    },
+    {
+      "asset": "EUR/NZD",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.54,
+          "ema50-ema200": 0.06031,
+          "slope50": 0.00402,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.54,
+          "BBW": 0.02,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "EUR/NZD"
+    },
+    {
+      "asset": "GBP/NZD",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.54,
+          "ema50-ema200": 0.04452,
+          "slope50": 0.00472,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.54,
+          "BBW": 0.0209,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "GBP/NZD"
+    },
+    {
+      "asset": "CAD/JPY",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.68,
+          "ema50-ema200": 0.50011,
+          "slope50": 0.16724,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.68,
+          "BBW": 0.0444,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "CAD/JPY"
+    },
+    {
+      "asset": "GBP/JPY",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.59,
+          "ema50-ema200": 3.1817,
+          "slope50": 0.4182,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.59,
+          "BBW": 0.0371,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "GBP/JPY"
+    },
+    {
+      "asset": "AUD/JPY",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.83,
+          "ema50-ema200": 1.32333,
+          "slope50": 0.14107,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.83,
+          "BBW": 0.0406,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "AUD/JPY"
+    },
+    {
+      "asset": "USD/JPY",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.7,
+          "ema50-ema200": 0.8985,
+          "slope50": 0.45375,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.7,
+          "BBW": 0.0478,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "USD/JPY"
+    },
+    {
+      "asset": "GBP/AUD",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.59,
+          "ema50-ema200": 0.00418,
+          "slope50": 0.0014,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.59,
+          "BBW": 0.0244,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "GBP/AUD"
+    },
+    {
+      "asset": "EUR/JPY",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.5,
+          "ema50-ema200": 4.65654,
+          "slope50": 0.3589,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.5,
+          "BBW": 0.033,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "EUR/JPY"
+    },
+    {
+      "asset": "AUD/CAD",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.61,
+          "ema50-ema200": 0.00822,
+          "slope50": -0.0001,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.61,
+          "BBW": 0.0236,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "AUD/CAD"
+    },
+    {
+      "asset": "NZD/JPY",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.73,
+          "ema50-ema200": -0.32527,
+          "slope50": 0.0076,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.73,
+          "BBW": 0.0365,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "NZD/JPY"
+    },
+    {
+      "asset": "CAD/CHF",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.64,
+          "ema50-ema200": -0.01647,
+          "slope50": -0.0013,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.64,
+          "BBW": 0.0214,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "CAD/CHF"
+    },
+    {
+      "asset": "NZD/USD",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.66,
+          "ema50-ema200": -0.00649,
+          "slope50": -0.00179,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.66,
+          "BBW": 0.0322,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "NZD/USD"
+    },
+    {
+      "asset": "NZD/CAD",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.53,
+          "ema50-ema200": -0.0068,
+          "slope50": -0.00115,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.53,
+          "BBW": 0.0209,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "NZD/CAD"
+    },
+    {
+      "asset": "USD/SEK",
+      "strategies": [
+        "WEEKLY",
+        "BB_MR"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.71,
+          "ema50-ema200": -0.28876,
+          "slope50": -0.00525,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.71,
+          "BBW": 0.0231,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "USD/SEK"
+    }
+  ],
+  "picks": [
+    {
+      "asset": "CHF/JPY"
+    },
+    {
+      "asset": "EUR/AUD"
+    },
+    {
+      "asset": "EUR/NZD"
+    },
+    {
+      "asset": "GBP/NZD"
+    },
+    {
+      "asset": "CAD/JPY"
+    },
+    {
+      "asset": "GBP/JPY"
+    },
+    {
+      "asset": "AUD/JPY"
+    },
+    {
+      "asset": "USD/JPY"
+    },
+    {
+      "asset": "GBP/AUD"
+    },
+    {
+      "asset": "EUR/JPY"
+    },
+    {
+      "asset": "AUD/CAD"
+    },
+    {
+      "asset": "NZD/JPY"
+    },
+    {
+      "asset": "CAD/CHF"
+    },
+    {
+      "asset": "NZD/USD"
+    },
+    {
+      "asset": "NZD/CAD"
+    },
+    {
+      "asset": "USD/SEK"
+    }
+  ],
+  "allow": {
+    "CHF/JPY": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "EUR/AUD": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "EUR/NZD": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "GBP/NZD": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "CAD/JPY": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "GBP/JPY": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "AUD/JPY": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "USD/JPY": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "GBP/AUD": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "EUR/JPY": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "AUD/CAD": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "NZD/JPY": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "CAD/CHF": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "NZD/USD": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "NZD/CAD": [
+      "WEEKLY",
+      "BB_MR"
+    ],
+    "USD/SEK": [
+      "WEEKLY",
+      "BB_MR"
+    ]
+  }
+}

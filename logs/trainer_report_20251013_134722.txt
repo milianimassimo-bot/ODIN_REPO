@@ -1,0 +1,17 @@
+=== ODIN Trainer Report 2025-10-13T13:47:23Z ===
+DB: C:\AUTOMAZIONE\logs\odin_ml.db
+
+[SUMMARY]
+Tot trades=4 | WR=0.50 | PnL avg=11.25
+• WEEKLY: n=2 | WR=1.00 | avg=35.00
+• BB_MR: n=2 | WR=0.00 | avg=-12.50
+Top ⬆️: EUR/USD(35.00), GOLD(-12.50)
+Bottom ⬇️: GOLD(-12.50), EUR/USD(35.00)
+
+[DETTAGLIO ASSET/STRAT]
+EUR/USD/WEEKLY | n=2 winrate=1.00 avg=35.00
+GOLD/BB_MR | n=2 winrate=0.00 avg=-12.50
+
+[DECISIONI]
+⚪️ EUR/USD/WEEKLY: solo 2 trade, serve ≥4
+⚪️ GOLD/BB_MR: solo 2 trade, serve ≥4

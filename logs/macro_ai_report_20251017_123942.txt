@@ -1,0 +1,18 @@
+Errore API Gemini: [v1/gemini-1.5-flash-latest] 400: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+   
+(Modello scelto: models/gemini-1.5-flash-latest)
+Tip: controlla i permessi della chiave o prova un altro modello (GEMINI_MODEL).

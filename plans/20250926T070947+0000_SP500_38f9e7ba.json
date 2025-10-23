@@ -1,0 +1,44 @@
+{
+  "id": "38f9e7ba",
+  "asof_utc": "2025-09-26T07:09:47+00:00",
+  "regime_sha1": "476c6fdf83f180cd6f95606ac6fc507f637aa162",
+  "asset": "SP500",
+  "bucket": "INDEX",
+  "status": "COMMITTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "SP500",
+    "symbol": "SPX",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 0.23474,
+    "sl": 0.15381,
+    "tp": 0.3966,
+    "rr": 2.0,
+    "atr_d1": 0.04046,
+    "basis": {
+      "ema20_h4": 0.23474,
+      "ema50_d1": 0.16957,
+      "ema200_d1": 0.11368
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.7,
+    "note": "Trend pulito, nessun ostacolo evidente."
+  },
+  "risk": {
+    "accept": true,
+    "reason": null,
+    "size_lots": 15.5,
+    "risk_pct": 1.0,
+    "caps_snapshot": {
+      "GLOBAL": 0.0,
+      "BUCKET:INDEX": 0.0,
+      "ASSET:SP500": 0.0
+    }
+  },
+  "notes": [
+    "NOTIFIED_TELEGRAM"
+  ]
+}

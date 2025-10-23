@@ -1,0 +1,15 @@
+{
+  "ts": "2025-10-09T06:20:02Z",
+  "action": "FRESH_RETRAIN+MACRO",
+  "last_retrain_log": "retrain_only_20251008_1555.log",
+  "changed": [
+    "GOLD.allow_new_entries=False",
+    "SILVER.allow_new_entries=False",
+    "AUD/USD.allow_new_entries=False",
+    "NZD/USD.allow_new_entries=False",
+    "EUR/USD.allow_new_entries=False",
+    "GBP/USD.allow_new_entries=False"
+  ],
+  "softeners_applied": [],
+  "softeners_expired": []
+}

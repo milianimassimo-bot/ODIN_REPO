@@ -1,0 +1,21 @@
+[16/10/2025  2:05:02,00] START ODIN_DAILY 
+--- MODULO 1: REGIME --- 
+--- Avvio Filtro di Regime ODIN v2.1.0 ---
+--- Avvio Preflight Check ---
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 413, in <module>
+    main()
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 282, in main
+    ASSET_RESOLVED = preflight_symbols(td, universe_portfolio, INTERVAL, OUTPUTSIZE)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 186, in preflight_symbols
+    _log("\n\u26a0\ufe0f  Preflight: esclusi per problemi:")
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 118, in _log
+    print(msg, flush=True)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 2-3: character maps to <undefined>
+--- MODULO 4: MAIN (with summary) --- 
+C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\python.exe: can't open file 'C:\\AUTOMAZIONE\\odin_main_with_summary.py': [Errno 2] No such file or directory
+[16/10/2025  2:05:08,58] END ODIN_DAILY 

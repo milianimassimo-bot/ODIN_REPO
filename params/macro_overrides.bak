@@ -1,0 +1,20 @@
+{
+  "generated_utc": "2025-10-17T12:52:50Z",
+  "global": {
+    "risk_caps_multiplier": 0.8
+  },
+  "asset_overrides": {
+    "GOLD": {
+      "allow_new_entries": true
+    },
+    "SILVER": {
+      "allow_new_entries": true
+    },
+    "AUD/USD": {
+      "allow_new_entries": true
+    },
+    "NZD/USD": {
+      "allow_new_entries": true
+    }
+  }
+}

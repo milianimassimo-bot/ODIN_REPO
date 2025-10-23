@@ -1,0 +1,15 @@
+{
+  "ts": "2025-10-08T20:20:02Z",
+  "action": "FRESH_RETRAIN+MACRO",
+  "last_retrain_log": "retrain_only_20251008_1555.log",
+  "changed": [],
+  "softeners_applied": [
+    "WEEKLY.GOLD.pullback_atr_max: 1.7 -> 1.8 (extend)",
+    "WEEKLY.GOLD.atr_pct_max: 2.7 -> 2.9000000000000004 (extend)",
+    "WEEKLY.SILVER.pullback_atr_max: 1.4 -> 1.5999999999999999 (extend)",
+    "WEEKLY.SILVER.atr_pct_max: 2.2 -> 2.4000000000000004 (extend)",
+    "BB_MR.AUD/USD.r2_max: 0.15 -> 0.18 (extend)",
+    "BB_MR.AUD/USD.adx_max: 18.0 -> 20.0 (extend)"
+  ],
+  "softeners_expired": []
+}

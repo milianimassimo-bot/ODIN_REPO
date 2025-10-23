@@ -1,0 +1,6 @@
+C:\AUTOMAZIONE\status_report.py:159: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  stamp = datetime.utcnow().strftime("%Y%m%d_%H%M")
+✅ Status inviato e salvato: C:\AUTOMAZIONE\logs\status_20251021_0036.txt
+C:\AUTOMAZIONE\status_report.py:159: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  stamp = datetime.utcnow().strftime("%Y%m%d_%H%M")
+✅ Status inviato e salvato: C:\AUTOMAZIONE\logs\status_20251021_1450.txt

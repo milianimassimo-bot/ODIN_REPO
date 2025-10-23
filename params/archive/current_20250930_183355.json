@@ -1,0 +1,98 @@
+{
+  "STATUS": {
+    "EUR/USD": "PAUSED",
+    "GBP/USD": "PAUSED",
+    "USD/JPY": "PAUSED",
+    "AUD/USD": "PAUSED",
+    "EUR/JPY": "PAUSED",
+    "GBP/JPY": "PAUSED",
+    "GOLD": "PAUSED",
+    "SILVER": "PAUSED"
+  },
+  "WEEKLY": {
+    "per_asset": {
+      "EUR/USD": {
+        "adx_min": 18,
+        "r2_min": 0.25,
+        "anti_chase_atr": 1.3,
+        "max_weekly_range_atr": 1.6,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "ema_period": 20,
+        "pullback_atr_min": 0.4,
+        "pullback_atr_max": 1.0,
+        "atr_pct_min": 0.3,
+        "atr_pct_max": 1.6,
+        "confirm_h4": true,
+        "be_at_r": 0.7,
+        "trail_type": "chandelier",
+        "trail_atr_mult": 2.2,
+        "time_stop": 15
+      },
+      "GBP/USD": {
+        "adx_min": 30,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 3.0,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "GOLD": {
+        "adx_min": 20,
+        "r2_min": 0.28,
+        "anti_chase_atr": 1.5,
+        "max_weekly_range_atr": 1.8,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "ema_period": 20,
+        "pullback_atr_min": 0.5,
+        "pullback_atr_max": 1.2,
+        "atr_pct_min": 0.5,
+        "atr_pct_max": 2.5,
+        "confirm_h4": true,
+        "be_at_r": 0.8,
+        "trail_type": "chandelier",
+        "trail_atr_mult": 2.5,
+        "time_stop": 15
+      }
+    }
+  },
+  "BB_MR": {
+    "per_asset": {
+      "EUR/USD": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 32,
+        "rsi_sell": 68,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "confirm_close_inside_band": true,
+        "adx_max": 16,
+        "r2_max": 0.12,
+        "atr_pct_min": 0.18,
+        "atr_pct_max": 0.9,
+        "tp_atr": 0.6,
+        "sl_over_band_atr": 0.5,
+        "time_stop": 4
+      },
+      "GOLD": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "confirm_close_inside_band": true,
+        "adx_max": 18,
+        "r2_max": 0.15,
+        "atr_pct_min": 0.25,
+        "atr_pct_max": 1.4,
+        "tp_atr": 0.8,
+        "sl_over_band_atr": 0.6,
+        "time_stop": 5
+      }
+    }
+  }
+}

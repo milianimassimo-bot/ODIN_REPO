@@ -1,0 +1,55 @@
+[13/10/2025 11:05:38,43] START ODIN_DAILY 
+--- MODULO 1: REGIME --- 
+--- Avvio Filtro di Regime ODIN v1.3.2 ---
+--- Avvio Preflight Check ---
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 352, in <module>
+    main()
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 241, in main
+    ASSET_RESOLVED = preflight_symbols(td, ASSET_PORTFOLIO, INTERVAL, OUTPUTSIZE)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 150, in preflight_symbols
+    _log("\n\u26a0\ufe0f  Preflight: esclusi per problemi:")
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 69, in _log
+    print(msg, flush=True)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 2-3: character maps to <undefined>
+--- MODULO 4: MAIN (with summary) --- 
+2025-10-13 11:05:44,383 | INFO | [PARAMS] Caricati da: C:\AUTOMAZIONE\params\current.json
+[MacroGate] risk_caps_multiplier=0.85 | asset_overrides=AUD/USD, EUR/USD, GBP/USD, GOLD, NZD/USD, SILVER | guardrails={}
+2025-10-13 11:05:44,394 | INFO | --- Avvio Sala Decisionale ODIN v2.3 (PROD) ---
+2025-10-13 11:05:44,394 | INFO | [NewsGate] enable=True | file=news_blackout.json | finestre=0
+2025-10-13 11:05:44,504 | INFO | Connessione a MT5 stabilita.
+2025-10-13 11:05:44,504 | INFO | Equity attuale: 5636.72 EUR
+2025-10-13 11:05:44,513 | INFO | Regime v1.3.2 OK (sha1 0d096e46f4)
+2025-10-13 11:05:45,546 | INFO | [NO-SIGNAL] EUR/JPY: nessun setup valido (regime=TRENDING).
+2025-10-13 11:05:46,562 | INFO | [NO-SIGNAL] GBP/JPY: nessun setup valido (regime=TRENDING).
+2025-10-13 11:05:58,742 | INFO | [SIG-DBG] GOLD: WEEKLY: turbolenza alta vs contesto (ATR%/BBW)
+2025-10-13 11:05:58,742 | INFO | [NO-SIGNAL] GOLD: WEEKLY: turbolenza alta vs contesto (ATR%/BBW)
+2025-10-13 11:05:59,729 | INFO | [SIG-DBG] SILVER: WEEKLY: ATR% 2.61 fuori [0.3,2.2]
+2025-10-13 11:05:59,729 | INFO | [NO-SIGNAL] SILVER: WEEKLY: ATR% 2.61 fuori [0.3,2.2]
+2025-10-13 11:06:00,853 | INFO | [SIG-DBG] SP500: WEEKLY: ATR% 19.26 fuori [0.3,1.6]
+2025-10-13 11:06:00,853 | INFO | [NO-SIGNAL] SP500: WEEKLY: ATR% 19.26 fuori [0.3,1.6]
+2025-10-13 11:06:01,963 | INFO | [SIG-DBG] AUD/USD: BB_MR: R2=0.25 > r2_max=0.15
+2025-10-13 11:06:01,963 | INFO | [NO-SIGNAL] AUD/USD: BB_MR: R2=0.25 > r2_max=0.15
+2025-10-13 11:06:01,991 | ERROR | Errore su EUR/USD: float() argument must be a string or a real number, not 'NoneType'
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\odin_main.py", line 939, in main
+    signals = build_signals_for_item(item)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AUTOMAZIONE\odin_main.py", line 698, in build_signals_for_item
+    s = build_signal_bbmr_confirmed(item); return [s] if s else []
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AUTOMAZIONE\odin_main.py", line 632, in build_signal_bbmr_confirmed
+    if adx >= float(p.get("adx_max", 18)):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+
+2025-10-13 11:06:03,000 | INFO | [NO-SIGNAL] GBP/USD: nessun setup valido (regime=LATERALE).
+2025-10-13 11:06:03,000 | INFO | [SIG-DBG] USD/JPY: BB_MR: ADX=19.50 >= adx_max=18.0
+2025-10-13 11:06:03,000 | INFO | [NO-SIGNAL] USD/JPY: BB_MR: ADX=19.50 >= adx_max=18.0
+2025-10-13 11:06:03,998 | INFO | --- Sessione decisionale completata ---
+2025-10-13 11:06:03,998 | INFO | Connessione a MT5 chiusa.
+[13/10/2025 11:06:04,96] END ODIN_DAILY 

@@ -1,0 +1,23 @@
+{
+  "notes": "auto from macro_ai_report",
+  "global": {
+    "risk_caps_multiplier": 1.0
+  },
+  "asset_overrides": {
+    "GOLD": {
+      "allow_new_entries": true
+    },
+    "SILVER": {
+      "allow_new_entries": true
+    },
+    "AUD/USD": {
+      "allow_new_entries": true
+    },
+    "NZD/USD": {
+      "allow_new_entries": true
+    },
+    "USD/CAD": {
+      "allow_new_entries": true
+    }
+  }
+}

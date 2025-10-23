@@ -1,0 +1,38 @@
+2025-10-15 14:10:02,656 | INFO | [PARAMS] Caricati da: C:\AUTOMAZIONE\params\current.json
+[MacroGate] risk_caps_multiplier=0.85 | asset_overrides=AUD/USD, EUR/USD, GBP/USD, GOLD, NZD/USD, SILVER | guardrails={}
+ODIN bootstrap…
+2025-10-15 14:10:02,664 | INFO | --- Avvio Sala Decisionale ODIN v2.4.2 (PROD) ---
+2025-10-15 14:10:02,678 | INFO | Connessione a MT5 stabilita.
+2025-10-15 14:10:02,678 | INFO | Equity attuale: 5636.72 EUR
+2025-10-15 14:10:02,693 | INFO | Regime v2.0.0 OK (sha1 53d85225c5)
+2025-10-15 14:10:02,694 | INFO | [Universe] Attivi 16 asset dal file universe.json
+2025-10-15 14:10:02,694 | INFO | [Universe] attivo: 16 asset selezionati nella giornata.
+2025-10-15 14:10:02,694 | INFO | [Universe] AUD/JPY: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='TRENDING', want='WEEKLY'
+2025-10-15 14:10:02,738 | INFO | [SIG-DBG] AUD/JPY: WEEKLY: pullback dist_atr=0.02 non in range [0.4,1.3]
+2025-10-15 14:10:02,738 | INFO | [NO-SIGNAL] AUD/JPY: WEEKLY: pullback dist_atr=0.02 non in range [0.4,1.3]
+2025-10-15 14:10:02,738 | INFO | [Universe] AUD/NZD: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='TRENDING', want='WEEKLY'
+2025-10-15 14:10:02,760 | INFO | [SIG-DBG] AUD/NZD: WEEKLY: turbolenza alta vs contesto (ATR%/BBW)
+2025-10-15 14:10:02,760 | INFO | [NO-SIGNAL] AUD/NZD: WEEKLY: turbolenza alta vs contesto (ATR%/BBW)
+2025-10-15 14:10:02,760 | INFO | [Universe] CHF/JPY: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='TRENDING', want='WEEKLY'
+2025-10-15 14:10:02,781 | INFO | [SIG-DBG] CHF/JPY: WEEKLY: pullback dist_atr=1.57 non in range [0.4,1.3]
+2025-10-15 14:10:02,782 | INFO | [NO-SIGNAL] CHF/JPY: WEEKLY: pullback dist_atr=1.57 non in range [0.4,1.3]
+2025-10-15 14:10:02,782 | INFO | [Universe] EUR/JPY: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='TRENDING', want='WEEKLY'
+2025-10-15 14:10:02,793 | INFO | [SIG-DBG] EUR/JPY: WEEKLY: range settimanale troppo ampio vs ATR (1.6x)
+2025-10-15 14:10:02,793 | INFO | [NO-SIGNAL] EUR/JPY: WEEKLY: range settimanale troppo ampio vs ATR (1.6x)
+2025-10-15 14:10:02,793 | INFO | [Universe] GBP/JPY: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='TRENDING', want='WEEKLY'
+2025-10-15 14:10:02,806 | INFO | [SIG-DBG] GBP/JPY: WEEKLY: range settimanale troppo ampio vs ATR (1.6x)
+2025-10-15 14:10:02,806 | INFO | [NO-SIGNAL] GBP/JPY: WEEKLY: range settimanale troppo ampio vs ATR (1.6x)
+2025-10-15 14:10:02,806 | INFO | [Universe] AUD/USD: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+2025-10-15 14:10:02,811 | INFO | [SIG-DBG] AUD/USD: BB_MR: nessuna condizione di entry (incrocio bande + RSI)
+2025-10-15 14:10:02,811 | INFO | [NO-SIGNAL] AUD/USD: BB_MR: nessuna condizione di entry (incrocio bande + RSI)
+2025-10-15 14:10:02,811 | INFO | [Universe] DAX: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+2025-10-15 14:10:02,838 | INFO | [SIG-DBG] DAX: BB_MR: nessuna condizione di entry (incrocio bande + RSI)
+2025-10-15 14:10:02,838 | INFO | [NO-SIGNAL] DAX: BB_MR: nessuna condizione di entry (incrocio bande + RSI)
+2025-10-15 14:10:02,838 | INFO | [Universe] EUR/AUD: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+2025-10-15 14:10:02,856 | INFO | [SIG-DBG] EUR/AUD: BB_MR: nessuna condizione di entry (incrocio bande + RSI)
+2025-10-15 14:10:02,856 | INFO | [NO-SIGNAL] EUR/AUD: BB_MR: nessuna condizione di entry (incrocio bande + RSI)
+2025-10-15 14:10:02,856 | INFO | [Universe] NZD/USD: OK (allowed {'WEEKLY', 'BB_MR'}) — regime='LATERALE', want='BB_MR'
+2025-10-15 14:10:02,873 | INFO | [SIG-DBG] NZD/USD: BB_MR: nessuna condizione di entry (incrocio bande + RSI)
+2025-10-15 14:10:02,873 | INFO | [NO-SIGNAL] NZD/USD: BB_MR: nessuna condizione di entry (incrocio bande + RSI)
+2025-10-15 14:10:02,873 | INFO | --- Sessione decisionale completata ---
+2025-10-15 14:10:03,862 | INFO | Connessione a MT5 chiusa.

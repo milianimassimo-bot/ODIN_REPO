@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "version": "2.2.1",
+    "vendor": "twelvedata",
+    "interval_api": "1day",
+    "timeframe": "D1",
+    "roll_window": 180,
+    "universe": [
+      "AUD/CAD",
+      "CHF/JPY",
+      "EUR/AUD",
+      "EUR/NZD",
+      "GBP/NZD",
+      "CAD/JPY",
+      "GBP/JPY",
+      "AUD/JPY",
+      "USD/JPY",
+      "GBP/AUD",
+      "EUR/JPY",
+      "EUR/CAD",
+      "NZD/JPY",
+      "CAD/CHF",
+      "NZD/USD",
+      "NZD/CAD"
+    ],
+    "assets_processed": 16,
+    "asof_utc": "2025-10-22T22:35:08+00:00",
+    "universe_file": "C:\\AUTOMAZIONE\\params\\universe.json",
+    "symbols_td": {
+      "AUD/CAD": "AUD/CAD",
+      "CHF/JPY": "CHF/JPY",
+      "EUR/AUD": "EUR/AUD",
+      "EUR/NZD": "EUR/NZD",
+      "GBP/NZD": "GBP/NZD",
+      "CAD/JPY": "CAD/JPY",
+      "GBP/JPY": "GBP/JPY",
+      "AUD/JPY": "AUD/JPY",
+      "USD/JPY": "USD/JPY",
+      "GBP/AUD": "GBP/AUD",
+      "EUR/JPY": "EUR/JPY",
+      "EUR/CAD": "EUR/CAD",
+      "NZD/JPY": "NZD/JPY",
+      "CAD/CHF": "CAD/CHF",
+      "NZD/USD": "NZD/USD",
+      "NZD/CAD": "NZD/CAD"
+    },
+    "sha1": "564f5906bf3d4c2c84f7de5bba30291db85c4424"
+  },
+  "items": [
+    {
+      "asset": "CHF/JPY",
+      "vendorSymbol": "CHF/JPY",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "TRENDING",
+      "metrics": {
+        "adx": 36.029119742,
+        "bbw": 4.4876442595,
+        "atr_pct": 0.459480334,
+        "r2_60": 0.8592325417
+      },
+      "context": {
+        "bbw_q25": 1.8719357518,
+        "bbw_q50": 2.5300785743,
+        "bbw_q75": 3.8332024879,
+        "atrp_q25": 0.5035944269,
+        "atrp_q50": 0.5547221194,
+        "atrp_q75": 0.6740137294
+      }
+    },
+    {
+      "asset": "EUR/JPY",
+      "vendorSymbol": "EUR/JPY",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "TRENDING",
+      "metrics": {
+        "adx": 25.0518257792,
+        "bbw": 3.3847074302,
+        "atr_pct": 0.5037505092,
+        "r2_60": 0.7594792953
+      },
+      "context": {
+        "bbw_q25": 1.7805535193,
+        "bbw_q50": 2.0301209116,
+        "bbw_q75": 3.0313727844,
+        "atrp_q25": 0.5305310748,
+        "atrp_q50": 0.5918660604,
+        "atrp_q75": 0.6747953149
+      }
+    },
+    {
+      "asset": "GBP/NZD",
+      "vendorSymbol": "GBP/NZD",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "TRENDING",
+      "metrics": {
+        "adx": 32.2796327013,
+        "bbw": 2.1461938543,
+        "atr_pct": 0.5368430892,
+        "r2_60": 0.567813215
+      },
+      "context": {
+        "bbw_q25": 1.6451648422,
+        "bbw_q50": 1.9648152156,
+        "bbw_q75": 2.622993668,
+        "atrp_q25": 0.5192986483,
+        "atrp_q50": 0.5870346004,
+        "atrp_q75": 0.6851631168
+      }
+    },
+    {
+      "asset": "AUD/CAD",
+      "vendorSymbol": "AUD/CAD",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "LATERALE",
+      "metrics": {
+        "adx": 19.7542157467,
+        "bbw": 2.4251535474,
+        "atr_pct": 0.6060021919,
+        "r2_60": 0.4537712963
+      },
+      "context": {
+        "bbw_q25": 1.5441810255,
+        "bbw_q50": 1.9499178097,
+        "bbw_q75": 2.3727747292,
+        "atrp_q25": 0.5420543399,
+        "atrp_q50": 0.6159861249,
+        "atrp_q75": 0.7582570673
+      }
+    },
+    {
+      "asset": "AUD/JPY",
+      "vendorSymbol": "AUD/JPY",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "LATERALE",
+      "metrics": {
+        "adx": 16.9064477652,
+        "bbw": 4.1611404676,
+        "atr_pct": 0.8350253411,
+        "r2_60": 0.6663090915
+      },
+      "context": {
+        "bbw_q25": 2.3264995668,
+        "bbw_q50": 3.1582570786,
+        "bbw_q75": 4.2947654451,
+        "atrp_q25": 0.6794711961,
+        "atrp_q50": 0.7803467435,
+        "atrp_q75": 1.0057448221
+      }
+    },
+    {
+      "asset": "CAD/JPY",
+      "vendorSymbol": "CAD/JPY",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "LATERALE",
+      "metrics": {
+        "adx": 14.7712985361,
+        "bbw": 4.5585703284,
+        "atr_pct": 0.6824348072,
+        "r2_60": 0.2687138095
+      },
+      "context": {
+        "bbw_q25": 1.6707478064,
+        "bbw_q50": 2.6202197114,
+        "bbw_q75": 3.357839418,
+        "atrp_q25": 0.6253243523,
+        "atrp_q50": 0.7121507332,
+        "atrp_q75": 0.8636855276
+      }
+    },
+    {
+      "asset": "EUR/AUD",
+      "vendorSymbol": "EUR/AUD",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "LATERALE",
+      "metrics": {
+        "adx": 14.9521156726,
+        "bbw": 2.4529566626,
+        "atr_pct": 0.6069329147,
+        "r2_60": 0.0928535342
+      },
+      "context": {
+        "bbw_q25": 1.727568872,
+        "bbw_q50": 2.0794540415,
+        "bbw_q75": 2.9503390832,
+        "atrp_q25": 0.5085355221,
+        "atrp_q50": 0.5811619253,
+        "atrp_q75": 0.7401876926
+      }
+    },
+    {
+      "asset": "EUR/CAD",
+      "vendorSymbol": "EUR/CAD",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "LATERALE",
+      "metrics": {
+        "adx": 15.6117364553,
+        "bbw": 1.5131381597,
+        "atr_pct": 0.4309312591,
+        "r2_60": 0.5444310145
+      },
+      "context": {
+        "bbw_q25": 1.3988516578,
+        "bbw_q50": 1.9592803934,
+        "bbw_q75": 2.8307754293,
+        "atrp_q25": 0.4642113843,
+        "atrp_q50": 0.5713400719,
+        "atrp_q75": 0.8144593547
+      }
+    },
+    {
+      "asset": "GBP/AUD",
+      "vendorSymbol": "GBP/AUD",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "LATERALE",
+      "metrics": {
+        "adx": 14.9350167219,
+        "bbw": 2.5023675689,
+        "atr_pct": 0.5877020347,
+        "r2_60": 0.2865126019
+      },
+      "context": {
+        "bbw_q25": 1.577664048,
+        "bbw_q50": 2.1874531978,
+        "bbw_q75": 2.6125298657,
+        "atrp_q25": 0.4879373265,
+        "atrp_q50": 0.5704799861,
+        "atrp_q75": 0.6965088685
+      }
+    },
+    {
+      "asset": "NZD/CAD",
+      "vendorSymbol": "NZD/CAD",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "LATERALE",
+      "metrics": {
+        "adx": 15.9864865801,
+        "bbw": 2.1412999702,
+        "atr_pct": 0.5278545875,
+        "r2_60": 0.2682095683
+      },
+      "context": {
+        "bbw_q25": 1.6238630785,
+        "bbw_q50": 2.0306761232,
+        "bbw_q75": 3.0376284919,
+        "atrp_q25": 0.5724973112,
+        "atrp_q50": 0.6318361714,
+        "atrp_q75": 0.7574564957
+      }
+    },
+    {
+      "asset": "NZD/JPY",
+      "vendorSymbol": "NZD/JPY",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "LATERALE",
+      "metrics": {
+        "adx": 15.6122626782,
+        "bbw": 3.7459914559,
+        "atr_pct": 0.7335553853,
+        "r2_60": 0.0003229351
+      },
+      "context": {
+        "bbw_q25": 2.3415493282,
+        "bbw_q50": 2.9515992677,
+        "bbw_q75": 3.7546390692,
+        "atrp_q25": 0.6456252781,
+        "atrp_q50": 0.7373481829,
+        "atrp_q75": 0.981578232
+      }
+    },
+    {
+      "asset": "NZD/USD",
+      "vendorSymbol": "NZD/USD",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "LATERALE",
+      "metrics": {
+        "adx": 18.8274984512,
+        "bbw": 3.3002238006,
+        "atr_pct": 0.6596264947,
+        "r2_60": 0.5328850017
+      },
+      "context": {
+        "bbw_q25": 2.6031371391,
+        "bbw_q50": 2.9710517083,
+        "bbw_q75": 3.371319004,
+        "atrp_q25": 0.7044043094,
+        "atrp_q50": 0.7638028,
+        "atrp_q75": 0.9050549541
+      }
+    },
+    {
+      "asset": "USD/JPY",
+      "vendorSymbol": "USD/JPY",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "LATERALE",
+      "metrics": {
+        "adx": 17.6765805819,
+        "bbw": 4.9006395539,
+        "atr_pct": 0.6961571241,
+        "r2_60": 0.5595024824
+      },
+      "context": {
+        "bbw_q25": 2.3925214216,
+        "bbw_q50": 3.0803109391,
+        "bbw_q75": 4.5752258775,
+        "atrp_q25": 0.8008308952,
+        "atrp_q50": 0.8839277956,
+        "atrp_q75": 1.0388317129
+      }
+    },
+    {
+      "asset": "CAD/CHF",
+      "vendorSymbol": "CAD/CHF",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "INDEFINITO",
+      "metrics": {
+        "adx": 20.4000558028,
+        "bbw": 2.1931291696,
+        "atr_pct": 0.6377491663,
+        "r2_60": 0.827121342
+      },
+      "context": {
+        "bbw_q25": 1.4281193023,
+        "bbw_q50": 1.8730767696,
+        "bbw_q75": 2.6896364757,
+        "atrp_q25": 0.5999111869,
+        "atrp_q50": 0.668777017,
+        "atrp_q75": 0.8226412315
+      }
+    },
+    {
+      "asset": "EUR/NZD",
+      "vendorSymbol": "EUR/NZD",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "INDEFINITO",
+      "metrics": {
+        "adx": 23.73581992,
+        "bbw": 2.0567681732,
+        "atr_pct": 0.5368367914,
+        "r2_60": 0.6437435021
+      },
+      "context": {
+        "bbw_q25": 1.6596129138,
+        "bbw_q50": 2.0502296362,
+        "bbw_q75": 3.2212426431,
+        "atrp_q25": 0.5301116317,
+        "atrp_q50": 0.5772805002,
+        "atrp_q75": 0.7242440865
+      }
+    },
+    {
+      "asset": "GBP/JPY",
+      "vendorSymbol": "GBP/JPY",
+      "kind": "forex",
+      "bucket": "FX",
+      "timeframe": "D1",
+      "regime": "INDEFINITO",
+      "metrics": {
+        "adx": 22.2744540035,
+        "bbw": 3.7999157305,
+        "atr_pct": 0.5903059418,
+        "r2_60": 0.54398728
+      },
+      "context": {
+        "bbw_q25": 1.7584622649,
+        "bbw_q50": 2.4766238949,
+        "bbw_q75": 3.2060577656,
+        "atrp_q25": 0.5570977504,
+        "atrp_q50": 0.6284440918,
+        "atrp_q75": 0.7198121037
+      }
+    }
+  ]
+}

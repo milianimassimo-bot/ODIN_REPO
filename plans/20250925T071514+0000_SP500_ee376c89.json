@@ -1,0 +1,44 @@
+{
+  "id": "ee376c89",
+  "asof_utc": "2025-09-25T07:15:14+00:00",
+  "regime_sha1": "fe5f152282a354d9c73b14f7c16b39e0cc9b3792",
+  "asset": "SP500",
+  "bucket": "INDEX",
+  "status": "REJECTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "SP500",
+    "symbol": "SPX",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 0.23374,
+    "sl": 0.1512,
+    "tp": 0.39882,
+    "rr": 2.0,
+    "atr_d1": 0.04127,
+    "basis": {
+      "ema20_h4": 0.23374,
+      "ema50_d1": 0.16588,
+      "ema200_d1": 0.11221
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.72,
+    "note": "Healthy trend; macro_unknown"
+  },
+  "risk": {
+    "accept": false,
+    "reason": "Unsupported instrument or min-lot would exceed tolerance",
+    "size_lots": 0.0,
+    "risk_pct": 0.0,
+    "caps_snapshot": {
+      "GLOBAL": 2.0,
+      "BUCKET:INDEX": 0.0,
+      "ASSET:SP500": 0.0
+    }
+  },
+  "notes": [
+    "RISK_REJECT: Unsupported instrument or min-lot would exceed tolerance"
+  ]
+}

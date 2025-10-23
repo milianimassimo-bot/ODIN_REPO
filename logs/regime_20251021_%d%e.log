@@ -1,0 +1,77 @@
+[RUN] regime_filterV2.py  
+--- Avvio Filtro di Regime ODIN v2.2.1 ---
+--- Avvio Preflight Check ---
+  ✅ AUD/CAD [AUD/CAD]
+  ✅ CHF/JPY [CHF/JPY]
+  ✅ EUR/AUD [EUR/AUD]
+  ✅ EUR/NZD [EUR/NZD]
+  ✅ GBP/NZD [GBP/NZD]
+  ✅ CAD/JPY [CAD/JPY]
+  ✅ GBP/JPY [GBP/JPY]
+  ✅ AUD/JPY [AUD/JPY]
+  ✅ USD/JPY [USD/JPY]
+  ✅ EUR/JPY [EUR/JPY]
+  ✅ EUR/CAD [EUR/CAD]
+  ✅ NZD/JPY [NZD/JPY]
+  ✅ CAD/CHF [CAD/CHF]
+  ✅ NZD/USD [NZD/USD]
+  ✅ NZD/CAD [NZD/CAD]
+  ✅ USD/SEK [USD/SEK]
+--- Preflight completato ---
+
+Analizzo: AUD/CAD  (TD: AUD/CAD, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: AUD/CAD 1day
+--> ADX=21.58 | BBW=2.333 | ATR%=0.60 | R2=0.51 -> INDEFINITO
+Analizzo: CHF/JPY  (TD: CHF/JPY, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: CHF/JPY 1day
+--> ADX=35.05 | BBW=4.616 | ATR%=0.47 | R2=0.85 -> TRENDING
+Analizzo: EUR/AUD  (TD: EUR/AUD, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: EUR/AUD 1day
+--> ADX=15.99 | BBW=2.469 | ATR%=0.61 | R2=0.11 -> LATERALE
+Analizzo: EUR/NZD  (TD: EUR/NZD, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: EUR/NZD 1day
+--> ADX=25.55 | BBW=2.061 | ATR%=0.54 | R2=0.65 -> TRENDING
+Analizzo: GBP/NZD  (TD: GBP/NZD, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: GBP/NZD 1day
+--> ADX=35.83 | BBW=2.159 | ATR%=0.51 | R2=0.57 -> TRENDING
+Analizzo: CAD/JPY  (TD: CAD/JPY, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: CAD/JPY 1day
+--> ADX=15.11 | BBW=4.575 | ATR%=0.69 | R2=0.23 -> LATERALE
+Analizzo: GBP/JPY  (TD: GBP/JPY, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: GBP/JPY 1day
+--> ADX=22.41 | BBW=4.025 | ATR%=0.58 | R2=0.51 -> INDEFINITO
+Analizzo: AUD/JPY  (TD: AUD/JPY, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: AUD/JPY 1day
+--> ADX=18.31 | BBW=4.204 | ATR%=0.84 | R2=0.67 -> LATERALE
+Analizzo: USD/JPY  (TD: USD/JPY, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: USD/JPY 1day
+--> ADX=17.54 | BBW=4.990 | ATR%=0.72 | R2=0.53 -> LATERALE
+Analizzo: EUR/JPY  (TD: EUR/JPY, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: EUR/JPY 1day
+--> ADX=24.97 | BBW=3.489 | ATR%=0.51 | R2=0.75 -> INDEFINITO
+Analizzo: EUR/CAD  (TD: EUR/CAD, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: EUR/CAD 1day
+--> ADX=17.30 | BBW=1.435 | ATR%=0.43 | R2=0.59 -> LATERALE
+Analizzo: NZD/JPY  (TD: NZD/JPY, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: NZD/JPY 1day
+--> ADX=16.06 | BBW=3.911 | ATR%=0.74 | R2=0.00 -> LATERALE
+Analizzo: CAD/CHF  (TD: CAD/CHF, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: CAD/CHF 1day
+--> ADX=20.73 | BBW=2.248 | ATR%=0.64 | R2=0.84 -> INDEFINITO
+Analizzo: NZD/USD  (TD: NZD/USD, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: NZD/USD 1day
+--> ADX=19.16 | BBW=3.325 | ATR%=0.68 | R2=0.53 -> LATERALE
+Analizzo: NZD/CAD  (TD: NZD/CAD, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: NZD/CAD 1day
+--> ADX=16.77 | BBW=2.067 | ATR%=0.53 | R2=0.26 -> LATERALE
+Analizzo: USD/SEK  (TD: USD/SEK, tipo: forex)
+INFO:cache_ohlc:[CACHE] HIT: USD/SEK 1day
+--> ADX=23.19 | BBW=2.353 | ATR%=0.69 | R2=0.14 -> INDEFINITO
+
+========================================================================
+--- REPORT DI REGIME COMPLETATO (v2.2.1) ---
+[Summary Regimi] {'LATERALE': 8, 'INDEFINITO': 5, 'TRENDING': 3, 'VOLATILE': 0, 'LATERALE (Compressione)': 0, 'ERRORE_DATI': 0}
+Salvato: odin_regime_report_d1.csv | odin_regime_report_d1.json (items: 16)
+Hash del report (SHA1): 1801539737ec03f1d31919c8b8840700540c5566
+========================================================================
+

@@ -1,0 +1,5 @@
+[RUN] healt_monitor.py --all 
+C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\python.exe: can't open file 'C:\\AUTOMAZIONE\\healt_monitor.py': [Errno 2] No such file or directory
+
+[INFO] Rilancio con -h per mostrare l'help richiesto...
+C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\python.exe: can't open file 'C:\\AUTOMAZIONE\\healt_monitor.py': [Errno 2] No such file or directory

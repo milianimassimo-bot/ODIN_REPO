@@ -1,0 +1,44 @@
+{
+  "id": "d1760e46",
+  "asof_utc": "2025-09-28T21:15:12+00:00",
+  "regime_sha1": "a631304914d345913c7d906e00acfa11d57080bf",
+  "asset": "GOLD",
+  "bucket": "XAU_XAG",
+  "status": "REJECTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "GOLD",
+    "symbol": "XAU/USD",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 3763.56994,
+    "sl": 3675.28621,
+    "tp": 3940.13739,
+    "rr": 2.0,
+    "atr_d1": 44.14186,
+    "basis": {
+      "ema20_h4": 3763.56994,
+      "ema50_d1": 3548.38789,
+      "ema200_d1": 3292.81718
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.7,
+    "note": "Trend pulito, nessun ostacolo evidente."
+  },
+  "risk": {
+    "accept": true,
+    "reason": null,
+    "size_lots": 0.01,
+    "risk_pct": 1.0,
+    "caps_snapshot": {
+      "GLOBAL": 0.0,
+      "BUCKET:XAU_XAG": 0.0,
+      "ASSET:GOLD": 0.0
+    }
+  },
+  "notes": [
+    "EXECUTION_FAIL: ordine non eseguito su MT5"
+  ]
+}

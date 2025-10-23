@@ -1,0 +1,44 @@
+{
+  "id": "257c78b4",
+  "asof_utc": "2025-09-25T07:35:48+00:00",
+  "regime_sha1": "fe5f152282a354d9c73b14f7c16b39e0cc9b3792",
+  "asset": "GOLD",
+  "bucket": "XAU_XAG",
+  "status": "REJECTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "GOLD",
+    "symbol": "XAU/USD",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 3748.74821,
+    "sl": 3662.24463,
+    "tp": 3921.75537,
+    "rr": 2.0,
+    "atr_d1": 43.25179,
+    "basis": {
+      "ema20_h4": 3748.74821,
+      "ema50_d1": 3530.36575,
+      "ema200_d1": 3281.33982
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.75,
+    "note": "Clean trend structure, no immediate obstacles."
+  },
+  "risk": {
+    "accept": false,
+    "reason": "Unsupported instrument or min-lot would exceed tolerance",
+    "size_lots": 0.0,
+    "risk_pct": 0.0,
+    "caps_snapshot": {
+      "GLOBAL": 0.0,
+      "BUCKET:XAU_XAG": 0.0,
+      "ASSET:GOLD": 0.0
+    }
+  },
+  "notes": [
+    "RISK_REJECT: Unsupported instrument or min-lot would exceed tolerance"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "window_days": 126,
+  "re_rank_every_days": 30,
+  "min_trades": 10,
+  "min_pf": 1.05,
+  "min_sharpe": 0.10,
+  "score_weights": { "pf": 0.45, "sharpe": 0.25, "dd_penalty": 0.15, "stability": 0.15 },
+  "max_active_by_role": { "trend": 3, "range": 2, "breakout": 2 },
+  "max_active_by_bucket": { "FX": 5, "XAU_XAG": 2, "INDEX": 1 },
+  "max_equity_corr": 0.8,
+  "top_n_per_asset": 3
+}

@@ -1,0 +1,14 @@
+py -c "import json,math,os; src=r'params\\retrain_metrics.json'; dst=r'params\\retrain_metrics_flat.json'; d=json.load(open(src,'r',encoding='utf-8')); o={}; 
+for k,v in d.items():
+    o[k]={}
+    for s in ('WEEKLY','BB_MR'):
+        m=v.get(s)
+        if m and m.get('OOS'):
+            x=m['OOS']; pf=x.get('pf',0.0)
+            try: pf=float(pf)
+            except: pf=999.0
+            if pf!=pf or pf in (float('inf'), -float('inf')): pf=999.0
+            o[k][s]={'tr':int(x.get('trades',0)),'pf':pf,'exp':float(x.get('exp',0.0)),'dd':float(x.get('maxdd',0.0))}
+        else:
+            o[k][s]=None
+json.dump(o,open(dst,'w',encoding='utf-8'),indent=2,ensure_ascii=False); print('Wrote',os.path.abspath(dst))"

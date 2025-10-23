@@ -1,0 +1,654 @@
+[07/10/2025 11:16:23,37] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[07/10/2025 22:00:01,67] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[08/10/2025  8:00:01,54] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[08/10/2025 13:25:27,09] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[08/10/2025 15:52:09,65] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[08/10/2025 16:06:48,35] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[08/10/2025 22:00:01,79] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[09/10/2025  8:00:01,65] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+macro_overrides.json generato: C:\AUTOMAZIONE\params\macro_overrides.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[09/10/2025 22:00:01,75] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+macro_overrides.json generato: C:\AUTOMAZIONE\params\macro_overrides.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[10/10/2025  8:00:01,63] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+macro_overrides.json generato: C:\AUTOMAZIONE\params\macro_overrides.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[10/10/2025 22:00:02,19] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[11/10/2025  8:00:01,60] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[11/10/2025 18:00:00,33] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[12/10/2025  8:00:01,77] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[12/10/2025 18:00:01,34] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[13/10/2025  8:00:01,54] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[13/10/2025 18:00:01,54] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[14/10/2025  8:00:01,64] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[14/10/2025 18:00:01,47] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[15/10/2025  8:00:02,00] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[15/10/2025 18:00:01,84] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[16/10/2025  8:00:01,96] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[16/10/2025 18:00:01,79] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[17/10/2025  8:00:01,92] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[17/10/2025 18:00:01,79] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[18/10/2025  8:00:02,15] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[18/10/2025 18:00:01,99] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[19/10/2025  8:00:02,22] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[19/10/2025 18:00:02,07] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[20/10/2025  8:00:01,79] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 
+[21/10/2025 17:53:00,49] START Macro Context 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_context.py 
+C:\AUTOMAZIONE\macro_context.py:118: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  end = datetime.utcnow()
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:89: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(symbol, start=start, end=end, interval="1d", progress=False)
+C:\AUTOMAZIONE\macro_context.py:99: FutureWarning: Calling float on a single element Series is deprecated and will raise a TypeError in the future. Use float(ser.iloc[0]) instead
+  return float(series.iloc[-n])
+C:\AUTOMAZIONE\macro_context.py:35: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+macro_context.json aggiornato: C:\AUTOMAZIONE\params\macro_context.json
+[Telegram] Messaggio inviato.
+[DONE] macro_context.py 

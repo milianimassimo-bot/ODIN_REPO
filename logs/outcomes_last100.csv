@@ -1,0 +1,5 @@
+id,ts_utc,asset,strategy,pnl_abs,equity,exit_reason,regime_json,metrics_json
+4,2025-10-11T10:29:50Z,GOLD,BB_MR,-12.5,5630.1,invalid_structure,"{""regime"": ""VOLATILE""}","{""R"": -0.2, ""regime"": ""VOLATILE""}"
+3,2025-10-11T10:29:50Z,EUR/USD,WEEKLY,35.0,5636.72,time_stop,"{""regime"": ""TRENDING""}","{""R"": 0.7, ""regime"": ""TRENDING""}"
+2,2025-10-11T10:29:25Z,GOLD,BB_MR,-12.5,5630.1,invalid_structure,"{""regime"": ""VOLATILE""}","{""R"": -0.2, ""regime"": ""VOLATILE""}"
+1,2025-10-11T10:29:25Z,EUR/USD,WEEKLY,35.0,5636.72,time_stop,"{""regime"": ""TRENDING""}","{""R"": 0.7, ""regime"": ""TRENDING""}"

@@ -1,0 +1,72 @@
+CHF/JPY [PAUSED]
+  WEEKLY: OOS: tr=4, PF=4.64, Exp=0.911, DD=1.0
+  BB_MR : OOS: tr=5, PF=0.57, Exp=-0.256, DD=3.0
+  WHY   : WEEKLY:tr<5; BB_MR:pf<1.05,exp<=0
+EUR/AUD [PAUSED]
+  WEEKLY: OOS: tr=4, PF=2.36, Exp=0.339, DD=1.0
+  BB_MR : OOS: tr=9, PF=0.73, Exp=-0.137, DD=4.0
+  WHY   : WEEKLY:tr<5; BB_MR:pf<1.05,exp<=0
+EUR/NZD [ACTIVE]
+  WEEKLY: OOS: tr=7, PF=3.50, Exp=0.714, DD=1.0
+  BB_MR : OOS: tr=7, PF=0.23, Exp=-0.657, DD=6.0
+  WHY   : WEEKLY:—; BB_MR:pf<1.05,exp<=0
+GBP/NZD [ACTIVE]
+  WEEKLY: OOS: tr=3, PF=999.00, Exp=0.493, DD=0.0
+  BB_MR : OOS: tr=7, PF=1.08, Exp=0.046, DD=2.0
+  WHY   : WEEKLY:tr<5; BB_MR:—
+CAD/JPY [ACTIVE]
+  WEEKLY: OOS: tr=4, PF=0.80, Exp=-0.084, DD=1.7
+  BB_MR : OOS: tr=5, PF=4.46, Exp=0.692, DD=1.0
+  WHY   : WEEKLY:tr<5,pf<1.05,exp<=0; BB_MR:—
+GBP/JPY [ACTIVE]
+  WEEKLY: OOS: tr=5, PF=4.18, Exp=0.639, DD=1.0
+  BB_MR : OOS: tr=1, PF=999.00, Exp=1.654, DD=0.0
+  WHY   : WEEKLY:—; BB_MR:tr<5
+AUD/JPY [ACTIVE]
+  WEEKLY: OOS: tr=4, PF=1.28, Exp=0.071, DD=1.0
+  BB_MR : OOS: tr=10, PF=2.90, Exp=0.384, DD=1.0
+  WHY   : WEEKLY:tr<5; BB_MR:—
+USD/JPY [PAUSED]
+  WEEKLY: OOS: tr=5, PF=0.00, Exp=-0.859, DD=4.3
+  BB_MR : OOS: tr=4, PF=0.59, Exp=-0.164, DD=1.6
+  WHY   : WEEKLY:pf<1.05,exp<=0; BB_MR:tr<5,pf<1.05,exp<=0
+GBP/AUD [ACTIVE]
+  WEEKLY: OOS: tr=4, PF=0.18, Exp=-0.617, DD=2.5
+  BB_MR : OOS: tr=5, PF=2.15, Exp=0.461, DD=2.0
+  WHY   : WEEKLY:tr<5,pf<1.05,exp<=0; BB_MR:—
+EUR/JPY [ACTIVE]
+  WEEKLY: OOS: tr=3, PF=2.09, Exp=0.365, DD=1.0
+  BB_MR : OOS: tr=7, PF=1.13, Exp=0.077, DD=4.0
+  WHY   : WEEKLY:tr<5; BB_MR:—
+AUD/CAD [ACTIVE]
+  WEEKLY: OOS: tr=4, PF=0.00, Exp=-0.842, DD=3.4
+  BB_MR : OOS: tr=6, PF=2.12, Exp=0.373, DD=1.0
+  WHY   : WEEKLY:tr<5,pf<1.05,exp<=0; BB_MR:—
+NZD/JPY [PAUSED]
+  WEEKLY: OOS: tr=6, PF=0.03, Exp=-0.811, DD=4.9
+  BB_MR : OOS: tr=6, PF=999.00, Exp=0.780, DD=0.0
+  WHY   : WEEKLY:pf<1.05,exp<=0; BB_MR:—
+CAD/CHF [PAUSED]
+  WEEKLY: OOS: tr=3, PF=45.34, Exp=0.747, DD=0.1
+  BB_MR : OOS: tr=3, PF=0.02, Exp=-0.654, DD=2.0
+  WHY   : WEEKLY:tr<5; BB_MR:tr<5,pf<1.05,exp<=0
+NZD/USD [ACTIVE]
+  WEEKLY: OOS: tr=4, PF=0.49, Exp=-0.424, DD=3.3
+  BB_MR : OOS: tr=6, PF=7.83, Exp=0.819, DD=0.7
+  WHY   : WEEKLY:tr<5,pf<1.05,exp<=0; BB_MR:—
+NZD/CAD [PAUSED]
+  WEEKLY: OOS: tr=4, PF=0.87, Exp=-0.062, DD=1.8
+  BB_MR : OOS: tr=4, PF=3.53, Exp=0.632, DD=1.0
+  WHY   : WEEKLY:tr<5,pf<1.05,exp<=0; BB_MR:tr<5
+USD/SEK [ACTIVE]
+  WEEKLY: OOS: tr=4, PF=2.09, Exp=0.274, DD=1.0
+  BB_MR : OOS: tr=9, PF=1.42, Exp=0.188, DD=3.4
+  WHY   : WEEKLY:tr<5; BB_MR:—
+GOLD [PAUSED]
+  WEEKLY: OOS: tr=4, PF=3.61, Exp=0.654, DD=1.0
+  BB_MR : OOS: tr=14, PF=0.31, Exp=-0.545, DD=7.6
+  WHY   : WEEKLY:tr<5; BB_MR:pf<1.05,exp<=0
+SILVER [PAUSED]
+  WEEKLY: OOS: tr=4, PF=999.00, Exp=1.416, DD=0.0
+  BB_MR : OOS: tr=7, PF=0.42, Exp=-0.501, DD=6.0
+  WHY   : WEEKLY:tr<5; BB_MR:pf<1.05,exp<=0

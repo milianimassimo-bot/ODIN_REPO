@@ -1,0 +1,17 @@
+{
+  "time": "2025-10-06 03:20:01",
+  "source_log": "retrain_light_20251006_0300.log",
+  "oos_passed": [],
+  "oos_failed": [
+    "AUD/USD",
+    "EUR/JPY",
+    "EUR/USD",
+    "GBP/JPY",
+    "GBP/USD",
+    "GOLD",
+    "SILVER",
+    "USD/JPY"
+  ],
+  "action": "PAUSE_GLOBAL",
+  "notes": "Nessun asset in PASSED; mantengo/metto pausa globale."
+}

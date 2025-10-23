@@ -1,0 +1,221 @@
+{
+  "WEEKLY": {
+    "default": {
+      "ema_period": 20,
+      "adx_min": 18.0,
+      "r2_min": 0.25,
+      "pullback_atr_min": 0.4,
+      "pullback_atr_max": 1.3,
+      "atr_pct_min": 0.3,
+      "atr_pct_max": 2.5,
+      "sl_atr_mult": 2.5,
+      "rr": 1.8,
+      "anti_chase_atr": 1.6,
+      "max_weekly_range_atr": 1.6,
+      "confirm_h4": true
+    },
+    "per_asset": {
+      "GOLD": {
+        "pullback_atr_max": 1.7,
+        "atr_pct_max": 2.7
+      },
+      "SILVER": {
+        "pullback_atr_max": 1.4,
+        "atr_pct_max": 2.2
+      },
+      "SP500": {
+        "atr_pct_max": 5.0
+      },
+      "GBP/JPY": {
+        "pullback_atr_max": 1.6
+      }
+    }
+  },
+  "BB_MR": {
+    "default": {
+      "adx_max": 20.0,
+      "r2_max": 0.25,
+      "atr_pct_min": 0.25,
+      "atr_pct_max": 1.4,
+      "bb_len": 20,
+      "bb_std": 2.0,
+      "rsi_len": 14,
+      "rsi_buy": 30.0,
+      "rsi_sell": 70.0,
+      "confirm_close_inside_band": true,
+      "tp_to_ma": true,
+      "atr_stop_mult": 1.5,
+      "tp_atr": null,
+      "sl_over_band_atr": null,
+      "bbw_relax": 1.0
+    },
+    "per_asset": {
+      "AUD/USD": {
+        "r2_max": 0.15,
+        "adx_max": 18.0
+      },
+      "GBP/USD": {
+        "r2_max": 0.15,
+        "adx_max": 18.0
+      },
+      "EUR/USD": {
+        "r2_max": 0.25,
+        "adx_max": 20.0
+      },
+      "GBP/JPY": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "AUD/JPY": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "EUR/JPY": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "USD/SEK": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "AUD/CHF": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "GBP/NZD": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "USD/NOK": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      }
+    }
+  },
+  "asset_overrides": {
+    "GOLD": {
+      "allow_new_entries": false
+    },
+    "SILVER": {
+      "allow_new_entries": false
+    },
+    "AUD/USD": {
+      "allow_new_entries": true
+    },
+    "NZD/USD": {
+      "allow_new_entries": false
+    },
+    "AUD/CAD": {
+      "allow_new_entries": false
+    },
+    "CHF/JPY": {
+      "allow_new_entries": false
+    },
+    "EUR/AUD": {
+      "allow_new_entries": false
+    },
+    "CAD/JPY": {
+      "allow_new_entries": false
+    },
+    "GBP/JPY": {
+      "allow_new_entries": false
+    },
+    "AUD/JPY": {
+      "allow_new_entries": false
+    },
+    "USD/JPY": {
+      "allow_new_entries": false
+    },
+    "EUR/JPY": {
+      "allow_new_entries": false
+    },
+    "NZD/JPY": {
+      "allow_new_entries": false
+    },
+    "NZD/CAD": {
+      "allow_new_entries": false
+    },
+    "USD/SEK": {
+      "allow_new_entries": false
+    },
+    "EUR/NZD": {
+      "allow_new_entries": false
+    },
+    "AUD/CHF": {
+      "allow_new_entries": false
+    },
+    "GBP/NZD": {
+      "allow_new_entries": false
+    },
+    "USD/NOK": {
+      "allow_new_entries": false
+    }
+  },
+  "disabled_assets": [],
+  "global": {
+    "risk_caps": {}
+  },
+  "STATUS": {
+    "EUR/USD": "PAUSED",
+    "USD/JPY": "PAUSED",
+    "GOLD": "PAUSED",
+    "AUD/CAD": "PAUSED",
+    "CHF/JPY": "PAUSED",
+    "EUR/AUD": "PAUSED",
+    "CAD/JPY": "PAUSED",
+    "GBP/JPY": "PAUSED",
+    "AUD/JPY": "ACTIVE",
+    "EUR/JPY": "PAUSED",
+    "NZD/JPY": "PAUSED",
+    "NZD/USD": "PAUSED",
+    "NZD/CAD": "PAUSED",
+    "USD/SEK": "PAUSED",
+    "EUR/NZD": "PAUSED",
+    "AUD/CHF": "PAUSED",
+    "GBP/NZD": "PAUSED",
+    "USD/NOK": "PAUSED",
+    "SILVER": "PAUSED"
+  }
+}

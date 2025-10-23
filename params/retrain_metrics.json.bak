@@ -1,0 +1,821 @@
+{
+  "AUD/CAD": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 0.8084448823485989,
+        "exp": -0.08812063202182766,
+        "maxdd": 3.4554824840901004
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 4.193144080094481,
+        "exp": 0.5512190330689362,
+        "maxdd": 1.0
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": 1.475725799969968,
+        "exp": 0.237862899984984,
+        "maxdd": 1.0
+      }
+    }
+  },
+  "CHF/JPY": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 0.33215735545350666,
+        "exp": -0.3963913428711293,
+        "maxdd": 3.9639134287112925
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 8,
+        "pf": 6.200569130058633,
+        "exp": 0.7221684532196934,
+        "maxdd": 1.11090680294301
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": 0.0,
+        "exp": -1.0,
+        "maxdd": 2.0
+      }
+    }
+  },
+  "EUR/AUD": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 0.9852434109864037,
+        "exp": -0.0057524493080763125,
+        "maxdd": 3.6575244930807633
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 0.9639688342196807,
+        "exp": -0.013895763123614882,
+        "maxdd": 2.627914580950347
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": Infinity,
+        "exp": 0.8279537768123144,
+        "maxdd": 0.0
+      }
+    }
+  },
+  "CAD/JPY": {
+    "status": "PAUSED",
+    "WEEKLY": null,
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 0.6395591343191657,
+        "exp": -0.1802204328404172,
+        "maxdd": 4.0
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": Infinity,
+        "exp": 1.04814902265195,
+        "maxdd": 0.0
+      }
+    }
+  },
+  "GBP/JPY": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.25,
+        "anti_chase_mult": 0.8,
+        "sl_atr_mult": 2.0,
+        "rr": 1.4,
+        "time_stop": 45
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 0.43356801903451486,
+        "exp": -0.41195053161126194,
+        "maxdd": 5.93145584772388
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 1.5965183520362132,
+        "exp": 0.2169157643768047,
+        "maxdd": 4.0
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": Infinity,
+        "exp": 0.9449019668740695,
+        "maxdd": 0.0
+      }
+    }
+  },
+  "AUD/JPY": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.25,
+        "anti_chase_mult": 0.8,
+        "sl_atr_mult": 2.0,
+        "rr": 1.4,
+        "time_stop": 45
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 1.0081758877813816,
+        "exp": 0.0036470155098512506,
+        "maxdd": 3.163529844901487
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 0.9280747570824478,
+        "exp": -0.031310080253981326,
+        "maxdd": 3.2010987264350756
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 3.3489725374439194,
+        "exp": 0.4697945074887839,
+        "maxdd": 1.0
+      }
+    }
+  },
+  "USD/JPY": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 0.475755562578474,
+        "exp": -0.3606282727681181,
+        "maxdd": 5.7669110004493
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 1.9425042070951288,
+        "exp": 0.3840508435269351,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    }
+  },
+  "EUR/JPY": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 0.6746248202373974,
+        "exp": -0.19532981968140256,
+        "maxdd": 3.003218187199081
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 1.7493554222960668,
+        "exp": 0.31852806985985965,
+        "maxdd": 4.0
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 0.0,
+        "exp": -1.0,
+        "maxdd": 3.0
+      }
+    }
+  },
+  "NZD/JPY": {
+    "status": "PAUSED",
+    "WEEKLY": null,
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 8,
+        "pf": 1.3443590083494243,
+        "exp": 0.12913462813103413,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": Infinity,
+        "exp": 0.9849346552479258,
+        "maxdd": 0.0
+      }
+    }
+  },
+  "NZD/USD": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 1.1182309073911918,
+        "exp": 0.04908649084985419,
+        "maxdd": 1.9947179529322485
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 9,
+        "pf": 2.3793257405250468,
+        "exp": 0.4597752468416822,
+        "maxdd": 1.0461006978227994
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": Infinity,
+        "exp": 1.2376864378299535,
+        "maxdd": 0.0
+      }
+    }
+  },
+  "NZD/CAD": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 30,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 3.0,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 1.2451197461118475,
+        "exp": 0.10285320762724841,
+        "maxdd": 1.4573099000857357
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 3.481586217087844,
+        "exp": 0.6767962410239573,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 1,
+        "pf": 0.0,
+        "exp": -1.0,
+        "maxdd": 1.0
+      }
+    }
+  },
+  "USD/SEK": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.28,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.0,
+        "rr": 1.6,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 1.6053476575563397,
+        "exp": 0.24213906302253588,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 1.1086663255738887,
+        "exp": 0.04238163873931683,
+        "maxdd": 2.680195655700059
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": Infinity,
+        "exp": 1.3266639295548195,
+        "maxdd": 0.0
+      }
+    }
+  },
+  "EUR/NZD": {
+    "status": "PAUSED",
+    "WEEKLY": null,
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 1.4837987141531674,
+        "exp": 0.186076428520449,
+        "maxdd": 2.5882264925180456
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": 0.0,
+        "exp": -1.0,
+        "maxdd": 2.0
+      }
+    }
+  },
+  "AUD/CHF": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.28,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.0,
+        "rr": 1.6,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 1.5607963535929466,
+        "exp": 0.23588330769725277,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 1.336166419885068,
+        "exp": 0.16808320994253395,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    }
+  },
+  "GBP/NZD": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.25,
+        "anti_chase_mult": 0.8,
+        "sl_atr_mult": 2.0,
+        "rr": 1.4,
+        "time_stop": 45
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 2.6348277909914666,
+        "exp": 0.49044833729744,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 1.2799637241413802,
+        "exp": 0.11198548965655197,
+        "maxdd": 2.5516768769266323
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": 1.0089873596854948,
+        "exp": 0.0044936798427474,
+        "maxdd": 1.0
+      }
+    }
+  },
+  "USD/NOK": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.28,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.0,
+        "rr": 1.6,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 0.3089585982811975,
+        "exp": -0.4221680282881902,
+        "maxdd": 4.643848311170093
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 8,
+        "pf": 3.191506865700509,
+        "exp": 0.5478767164251273,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 1,
+        "pf": Infinity,
+        "exp": 0.8427535917839615,
+        "maxdd": 0.0
+      }
+    }
+  },
+  "GOLD": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.25,
+        "anti_chase_mult": 0.8,
+        "sl_atr_mult": 2.0,
+        "rr": 1.4,
+        "time_stop": 45
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 6.596212001128651,
+        "exp": 0.9327020001881086,
+        "maxdd": 1.0
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 0.41454348484385517,
+        "exp": -0.39620822803262074,
+        "maxdd": 5.943123420489311
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 0.23088780520970653,
+        "exp": -0.6592390241059658,
+        "maxdd": 6.0
+      }
+    }
+  },
+  "SILVER": {
+    "status": "PAUSED",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.28,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.0,
+        "rr": 1.6,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 1.9978929470809732,
+        "exp": 0.346440928099599,
+        "maxdd": 1.8188968268019643
+      },
+      "OOS": {
+        "trades": 0,
+        "pf": 0.0,
+        "exp": 0.0,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 1.3742747602969798,
+        "exp": 0.1424015736576557,
+        "maxdd": 2.148754998012255
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.06912655654854317,
+        "exp": -0.6981550825885926,
+        "maxdd": 3.0
+      }
+    }
+  }
+}

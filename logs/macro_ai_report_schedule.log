@@ -1,0 +1,614 @@
+[05/10/2025  0:23:37,34] START Macro AI Report 
+C:\AUTOMAZIONE\macro_ai_report.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 75, in <module>
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+[05/10/2025  0:23:37,73] END Macro AI Report 
+[05/10/2025  0:27:19,34] START Macro AI Report 
+C:\AUTOMAZIONE\macro_ai_report.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 75, in <module>
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+[05/10/2025  0:27:20,71] END Macro AI Report 
+[05/10/2025  0:30:58,90] START Macro AI Report 
+C:\AUTOMAZIONE\macro_ai_report.py:36: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+Errore Telegram: name 'commento' is not defined
+[05/10/2025  0:30:59,28] END Macro AI Report 
+[05/10/2025  8:10:00,49] START Macro AI Report 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 223, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 233, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 225, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+[05/10/2025  8:10:11,52] END Macro AI Report 
+[05/10/2025 10:03:21,65] START Macro AI Report 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 223, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 233, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 225, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+[05/10/2025 10:03:30,26] END Macro AI Report 
+[06/10/2025  8:10:01,66] START Macro AI Report 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 223, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 233, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 225, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+[06/10/2025  8:10:12,27] END Macro AI Report 
+[06/10/2025 16:47:27,34] START Macro AI Report 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 223, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 233, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 225, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+[06/10/2025 16:47:50,37] END Macro AI Report 
+[06/10/2025 22:10:01,78] START Macro AI Report 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 224, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 234, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 226, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+[06/10/2025 22:10:18,82] END Macro AI Report 
+[06/10/2025 23:07:55,10] START Macro AI Report 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 224, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 234, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 226, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+[06/10/2025 23:08:08,88] END Macro AI Report 
+[06/10/2025 23:12:21,69] START Macro AI Report 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 224, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 234, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 226, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+[06/10/2025 23:12:33,39] END Macro AI Report 
+[06/10/2025 23:20:50,20] START Macro AI Report 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 224, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 234, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 226, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+[06/10/2025 23:21:06,13] END Macro AI Report 
+[06/10/2025 23:27:29,21] START Macro AI Report 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 224, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 234, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 226, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+[06/10/2025 23:27:45,51] END Macro AI Report 
+[C:\AUTOMAZIONE\run_macro_ai_report.cmd6/10/202523:32:36,36] START Macro AI Report 
+[FAIL] python non trovato: %PYEXE% 
+["C:\AUTOMAZIONE\run_macro_ai_report.cmd"6/10/202523:32:36,36] START Macro AI Report 
+[FAIL] python non trovato: %PYEXE% 
+[06/10/2025 23:39:19,44] 
+=== START Macro AI Report === 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 224, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 234, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 226, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+=== END Macro AI Report === 
+[06/10/2025 23:40:23,46] 
+=== START Macro AI Report === 
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 224, in main
+    print(f"\u2705 macro_ai_report generato: {out_path}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 234, in <module>
+    main()
+  File "C:\AUTOMAZIONE\macro_ai_report.py", line 226, in main
+    print("\u26a0\ufe0f Errore salvataggio report:", e)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-1: character maps to <undefined>
+=== END Macro AI Report === 
+[06/10/2025 23:44:00,60] 
+=== START Macro AI Report === 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251006_214416.txt
+✅ Messaggio Telegram inviato.
+=== END Macro AI Report === 
+[07/10/2025  0:11:26,53] 
+=== START Macro AI Report === 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251006_221137.txt
+✅ Messaggio Telegram inviato.
+=== END Macro AI Report === 
+[07/10/2025  0:17:31,22] 
+=== START Macro AI Report === 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251006_221746.txt
+✅ Messaggio Telegram inviato.
+=== END Macro AI Report === 
+[07/10/2025  9:47:08,86] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=EMPTY 
+[ENV] TELEGRAM_CHAT_ID=EMPTY 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251007_074723.txt
+✅ Messaggio Telegram inviato.
+[07/10/2025  9:47:24,15] END Macro AI Report 
+[07/10/2025  9:50:27,32] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=EMPTY 
+[ENV] TELEGRAM_CHAT_ID=EMPTY 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251007_075041.txt
+✅ Messaggio Telegram inviato.
+[07/10/2025  9:50:43,34] END Macro AI Report 
+[07/10/2025  9:59:14,73] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=EMPTY
+[ENV] TELEGRAM_CHAT_ID=EMPTY
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251007_075931.txt
+✅ Messaggio Telegram inviato.
+[07/10/2025  9:59:32,63] END Macro AI Report 
+[07/10/2025 10:03:48,39] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID="-1002752265278"
+⚠️ ListModels errore: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251007_080349.txt
+⚠️ Telegram API error: {"ok":false,"error_code":404,"description":"Not Found"}
+[07/10/2025 10:03:50,63] END Macro AI Report 
+[07/10/2025 10:04:15,77] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID="-1002752265278"
+⚠️ ListModels errore: {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251007_080417.txt
+⚠️ Telegram API error: {"ok":false,"error_code":404,"description":"Not Found"}
+[07/10/2025 10:04:18,12] END Macro AI Report 
+[07/10/2025 11:15:29,16] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251007_091543.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[07/10/2025 11:30:00,27] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251007_093014.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[07/10/2025 22:10:01,67] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251007_201014.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[08/10/2025  8:10:01,38] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251008_061014.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[08/10/2025 13:25:39,17] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251008_112557.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[08/10/2025 15:29:29,17] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251008_132947.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[08/10/2025 15:38:05,82] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251008_133822.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[08/10/2025 15:44:22,98] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251008_134442.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[08/10/2025 15:50:18,94] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251008_135035.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[08/10/2025 15:52:18,28] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251008_135232.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[08/10/2025 16:06:56,90] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251008_140715.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[08/10/2025 22:10:01,83] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251008_201015.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[09/10/2025  8:10:02,17] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251009_061011.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[09/10/2025 22:10:02,89] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251009_201015.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[10/10/2025  8:10:02,28] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251010_061013.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[10/10/2025 22:10:02,68] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251010_201014.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[11/10/2025  8:10:02,19] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251011_061015.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[11/10/2025 18:02:01,75] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251011_160218.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[12/10/2025  8:10:01,37] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251012_061014.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[12/10/2025 18:02:01,66] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251012_160213.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[13/10/2025  8:10:01,97] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251013_061011.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[13/10/2025 18:02:01,72] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251013_160216.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[14/10/2025  8:10:02,02] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251014_061015.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[14/10/2025 18:02:02,18] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251014_160219.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[15/10/2025  8:10:01,80] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251015_061015.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[15/10/2025 18:02:02,23] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251015_160221.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[16/10/2025  8:10:01,72] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251016_061016.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[16/10/2025 18:02:01,99] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251016_160227.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[17/10/2025  8:10:01,71] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251017_061015.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[17/10/2025 18:02:02,01] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251017_160219.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[18/10/2025  8:10:01,84] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251018_061014.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[18/10/2025 18:02:02,04] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251018_160214.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[19/10/2025  8:10:02,01] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251019_061011.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[19/10/2025 18:02:02,11] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251019_160215.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[20/10/2025  8:10:01,60] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251020_061012.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[21/10/2025 16:59:41,10] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251021_150001.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 
+[21/10/2025 17:55:00,45] START Macro AI Report 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] macro_ai_report.py 
+✅ macro_ai_report generato: C:\AUTOMAZIONE\logs\macro_ai_report_20251021_155527.txt
+✅ Messaggio Telegram inviato.
+[DONE] macro_ai_report.py 

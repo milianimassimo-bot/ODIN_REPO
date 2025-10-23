@@ -1,0 +1,6 @@
+[12/10/2025  6:30:01,69] START WATCHDOG 
+  File "C:\AUTOMAZIONE\odin_watchdog_mt5.py", line 192
+    elif step >= 3:
+    ^^^^
+SyntaxError: invalid syntax
+[12/10/2025  6:30:01,92] END WATCHDOG 

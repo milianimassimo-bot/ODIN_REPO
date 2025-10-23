@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-10-06T22:18:49Z",
+  "mode": "FRESH_RETRAIN",
+  "retrain_log": "C:\\AUTOMAZIONE\\logs\\retrain_light_20251006_0300.log",
+  "max_age_min": 1440,
+  "macro_merge": true,
+  "changed": [
+    "risk_caps x1.0",
+    "GOLD.allow_new_entries=True",
+    "SILVER.allow_new_entries=True",
+    "AUD/USD.allow_new_entries=True",
+    "NZD/USD.allow_new_entries=True",
+    "USD/CAD.allow_new_entries=True"
+  ]
+}

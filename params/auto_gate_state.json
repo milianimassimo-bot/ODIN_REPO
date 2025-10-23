@@ -1,0 +1,96 @@
+{
+  "assets": {
+    "EUR/JPY": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "EUR/USD": {
+      "allow": true,
+      "ts": "2025-10-14T06:20:02Z"
+    },
+    "AUD/USD": {
+      "allow": true,
+      "ts": "2025-10-14T06:20:02Z"
+    },
+    "GOLD": {
+      "allow": false,
+      "ts": "2025-10-23T00:20:02Z"
+    },
+    "SILVER": {
+      "allow": false,
+      "ts": "2025-10-23T00:20:02Z"
+    },
+    "AUD/CAD": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "CHF/JPY": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "EUR/AUD": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "CAD/JPY": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "AUD/JPY": {
+      "allow": false,
+      "ts": "2025-10-16T22:41:02Z"
+    },
+    "NZD/JPY": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "NZD/USD": {
+      "allow": false,
+      "ts": "2025-10-23T00:20:02Z"
+    },
+    "NZD/CAD": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "USD/SEK": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "EUR/NZD": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "AUD/CHF": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "GBP/NZD": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "USD/NOK": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "GBP/JPY": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "USD/JPY": {
+      "allow": false,
+      "ts": "2025-10-16T22:38:19Z"
+    },
+    "GBP/AUD": {
+      "allow": false,
+      "ts": "2025-10-22T00:20:02Z"
+    },
+    "CAD/CHF": {
+      "allow": false,
+      "ts": "2025-10-22T00:20:02Z"
+    },
+    "EUR/CAD": {
+      "allow": false,
+      "ts": "2025-10-22T15:42:22Z"
+    }
+  }
+}

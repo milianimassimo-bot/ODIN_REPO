@@ -1,0 +1,18 @@
+2025-10-17 23:20:51,999 | INFO | [PARAMS] Caricati da: C:\AUTOMAZIONE\params\current.json
+[MacroGate] risk_caps_multiplier=0.8 | asset_overrides=AUD/USD, GOLD, NZD/USD, SILVER | guardrails={'USD/CAD': {'block_long': True}}
+ODIN bootstrap…
+2025-10-17 23:20:52,010 | INFO | --- Avvio Sala Decisionale ODIN v2.4.2 (PROD) ---
+2025-10-17 23:20:52,010 | INFO | Connessione a MT5 stabilita.
+2025-10-17 23:20:52,010 | INFO | Connessione a MT5 chiusa.
+ODIN CRASH: AttributeError("'AI' object has no attribute 'balance'")
+Traceback (most recent call last):
+  File "odin_main.py", line 1725, in <module>
+    try: main()
+         ^^^^^^
+  File "odin_main.py", line 1396, in main
+    account_info = bridge.get_account_info()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "odin_main.py", line 663, in get_account_info
+    return {"equity": float(info.equity), "balance": float(info.balance),
+                                                           ^^^^^^^^^^^^
+AttributeError: 'AI' object has no attribute 'balance'

@@ -1,0 +1,19 @@
+[RUN] health_monitor.py --all 
+[TG] http=200 ok=True resp='{"ok":true,"result":{"message_id":1709,"sender_chat":{"id":-1002752265278,"title":"segnali daily","type":"channel"},"chat":{"id":-1002752265278,"title":"segnali daily","type":"channel"},"date":1761058'
+[HEALTH] • MT5: MT5 OK — equity=5636.72 EUR
+[HEALTH] • ENV: OK
+[HEALTH] • STALENESS:
+[HEALTH]    - Macro overrides.json: STALE 1954 min (> 1440) — C:\AUTOMAZIONE\params\macro_overrides.json
+[HEALTH] • LOG: OK
+[HEALTH] • DISK: 19.27 GB liberi
+[HEALTH] • System UTC: 2025-10-21 14:48:46
+
+[INFO] Help:
+[TG] http=200 ok=True resp='{"ok":true,"result":{"message_id":1710,"sender_chat":{"id":-1002752265278,"title":"segnali daily","type":"channel"},"chat":{"id":-1002752265278,"title":"segnali daily","type":"channel"},"date":1761058'
+[HEALTH] • MT5: MT5 OK — equity=5636.72 EUR
+[HEALTH] • ENV: OK
+[HEALTH] • STALENESS:
+[HEALTH]    - Macro overrides.json: STALE 1954 min (> 1440) — C:\AUTOMAZIONE\params\macro_overrides.json
+[HEALTH] • LOG: OK
+[HEALTH] • DISK: 19.27 GB liberi
+[HEALTH] • System UTC: 2025-10-21 14:48:48

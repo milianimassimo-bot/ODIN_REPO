@@ -1,0 +1,8 @@
+🛰️ ODIN / STATUS — 2025-10-21 00:36:45Z
+Equity=N/A | Expo=N/A | Trades open=N/A
+Paused=NO | RiskCaps g/b/a/t=—/—/—/—
+Allow entries: AUD/USD, GOLD, NZD/USD, SILVER, USD/CAD
+Regimes: NZD/USD:LATERALE (ATR% 0.69) | USD/JPY:LATERALE (ATR% 0.70)
+Macro: Risk=normal | USD=weak | Vol=normal | Commd=strong
+Macro nums: spx5d=— vix=— eur5d=— gold5d=—
+WD: BE={} | TRL={} | CooloffH=— | MaxAct=—

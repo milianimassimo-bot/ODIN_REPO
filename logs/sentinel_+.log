@@ -1,0 +1,350 @@
+--- Avvio Strategy Sentinel ---
+
+Analizzando strategia: EMA_Trend_D1 (D1)...
+INFO:cache_ohlc:[CACHE] HIT: AUD/CAD 1day
+  - [SCORE] EMA_Trend_D1 @ AUD/CAD: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CHF/JPY 1day
+  - [SCORE] EMA_Trend_D1 @ CHF/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/AUD 1day
+  - [SCORE] EMA_Trend_D1 @ EUR/AUD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/NZD 1day
+  - [SCORE] EMA_Trend_D1 @ EUR/NZD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: GBP/NZD 1day
+  - [SCORE] EMA_Trend_D1 @ GBP/NZD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CAD/JPY 1day
+  - [SCORE] EMA_Trend_D1 @ CAD/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: GBP/JPY 1day
+  - [SCORE] EMA_Trend_D1 @ GBP/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: AUD/JPY 1day
+  - [SCORE] EMA_Trend_D1 @ AUD/JPY: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: USD/JPY 1day
+  - [SCORE] EMA_Trend_D1 @ USD/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: GBP/AUD 1day
+  - [SCORE] EMA_Trend_D1 @ GBP/AUD: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/JPY 1day
+  - [SCORE] EMA_Trend_D1 @ EUR/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/JPY 1day
+  - [SCORE] EMA_Trend_D1 @ NZD/JPY: score=0.208 (PF=0.78, Sh=-1.39, DD=0.16, T=4)
+INFO:cache_ohlc:[CACHE] HIT: CAD/CHF 1day
+  - [SCORE] EMA_Trend_D1 @ CAD/CHF: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/USD 1day
+  - [SCORE] EMA_Trend_D1 @ NZD/USD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/CAD 1day
+  - [SCORE] EMA_Trend_D1 @ NZD/CAD: score=0.301 (PF=0.87, Sh=-0.77, DD=0.07, T=3)
+INFO:cache_ohlc:[CACHE] HIT: USD/SEK 1day
+  - [SCORE] EMA_Trend_D1 @ USD/SEK: scartato, pochi trade (1 < 3)
+-> Punteggio medio globale per EMA_Trend_D1: 0.2545
+
+Analizzando strategia: EMA_Pullback_H4 (H4)...
+WARNING:cache_ohlc:[CACHE] AUD/CAD 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: AUD/CAD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato AUD/CAD 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ AUD/CAD: score=0.407 (PF=0.97, Sh=-0.17, DD=0.02, T=22)
+WARNING:cache_ohlc:[CACHE] CHF/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CHF/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CHF/JPY 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ CHF/JPY: score=0.494 (PF=1.11, Sh=0.61, DD=0.02, T=19)
+WARNING:cache_ohlc:[CACHE] EUR/AUD 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/AUD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/AUD 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ EUR/AUD: score=0.584 (PF=1.21, Sh=1.37, DD=0.01, T=18)
+WARNING:cache_ohlc:[CACHE] EUR/NZD 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/NZD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/NZD 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ EUR/NZD: score=0.317 (PF=0.86, Sh=-1.08, DD=0.02, T=20)
+WARNING:cache_ohlc:[CACHE] GBP/NZD 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: GBP/NZD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato GBP/NZD 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ GBP/NZD: score=0.524 (PF=1.14, Sh=0.85, DD=0.01, T=18)
+WARNING:cache_ohlc:[CACHE] CAD/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CAD/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/JPY 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ CAD/JPY: score=0.297 (PF=0.76, Sh=-2.25, DD=0.03, T=17)
+WARNING:cache_ohlc:[CACHE] GBP/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: GBP/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato GBP/JPY 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ GBP/JPY: score=0.387 (PF=0.96, Sh=-0.33, DD=0.02, T=26)
+WARNING:cache_ohlc:[CACHE] AUD/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: AUD/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato AUD/JPY 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ AUD/JPY: score=0.295 (PF=0.81, Sh=-1.31, DD=0.04, T=21)
+WARNING:cache_ohlc:[CACHE] USD/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: USD/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato USD/JPY 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ USD/JPY: score=0.280 (PF=0.70, Sh=-3.15, DD=0.04, T=24)
+INFO:cache_ohlc:[CACHE] MISS: GBP/AUD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato GBP/AUD 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ GBP/AUD: score=0.799 (PF=1.69, Sh=3.77, DD=0.01, T=19)
+WARNING:cache_ohlc:[CACHE] EUR/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/JPY 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ EUR/JPY: score=0.462 (PF=1.06, Sh=0.36, DD=0.02, T=20)
+WARNING:cache_ohlc:[CACHE] NZD/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/JPY 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ NZD/JPY: score=0.274 (PF=0.67, Sh=-2.42, DD=0.04, T=13)
+WARNING:cache_ohlc:[CACHE] CAD/CHF 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CAD/CHF 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/CHF 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ CAD/CHF: score=0.339 (PF=0.90, Sh=-0.83, DD=0.01, T=20)
+WARNING:cache_ohlc:[CACHE] NZD/USD 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/USD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/USD 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ NZD/USD: score=0.468 (PF=1.06, Sh=0.41, DD=0.02, T=15)
+WARNING:cache_ohlc:[CACHE] NZD/CAD 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/CAD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/CAD 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ NZD/CAD: score=0.243 (PF=0.46, Sh=-5.15, DD=0.04, T=19)
+WARNING:cache_ohlc:[CACHE] USD/SEK 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: USD/SEK 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato USD/SEK 4h (1200 barre)
+  - [SCORE] EMA_Pullback_H4 @ USD/SEK: score=0.623 (PF=1.25, Sh=1.80, DD=0.01, T=19)
+-> Punteggio medio globale per EMA_Pullback_H4: 0.4246
+
+Analizzando strategia: BB_MR_D1 (D1)...
+INFO:cache_ohlc:[CACHE] HIT: AUD/CAD 1day
+  - [SCORE] BB_MR_D1 @ AUD/CAD: score=0.428 (PF=0.00, Sh=1.61, DD=0.00, T=3)
+INFO:cache_ohlc:[CACHE] HIT: CHF/JPY 1day
+  - [SCORE] BB_MR_D1 @ CHF/JPY: score=0.830 (PF=3.18, Sh=1.08, DD=0.00, T=8)
+INFO:cache_ohlc:[CACHE] HIT: EUR/AUD 1day
+  - [SCORE] BB_MR_D1 @ EUR/AUD: score=0.302 (PF=0.49, Sh=-0.64, DD=0.00, T=5)
+INFO:cache_ohlc:[CACHE] HIT: EUR/NZD 1day
+  - [SCORE] BB_MR_D1 @ EUR/NZD: score=0.225 (PF=0.23, Sh=-1.22, DD=0.01, T=6)
+INFO:cache_ohlc:[CACHE] HIT: GBP/NZD 1day
+  - [SCORE] BB_MR_D1 @ GBP/NZD: score=0.455 (PF=1.09, Sh=0.08, DD=0.00, T=5)
+INFO:cache_ohlc:[CACHE] HIT: CAD/JPY 1day
+  - [SCORE] BB_MR_D1 @ CAD/JPY: score=0.857 (PF=10.53, Sh=1.38, DD=0.00, T=5)
+INFO:cache_ohlc:[CACHE] HIT: GBP/JPY 1day
+  - [SCORE] BB_MR_D1 @ GBP/JPY: score=0.844 (PF=10.17, Sh=1.23, DD=0.00, T=3)
+INFO:cache_ohlc:[CACHE] HIT: AUD/JPY 1day
+  - [SCORE] BB_MR_D1 @ AUD/JPY: score=0.369 (PF=0.70, Sh=-0.26, DD=0.00, T=3)
+INFO:cache_ohlc:[CACHE] HIT: USD/JPY 1day
+  - [SCORE] BB_MR_D1 @ USD/JPY: score=0.347 (PF=0.64, Sh=-0.33, DD=0.01, T=3)
+INFO:cache_ohlc:[CACHE] HIT: GBP/AUD 1day
+  - [SCORE] BB_MR_D1 @ GBP/AUD: score=0.854 (PF=9.91, Sh=1.33, DD=0.00, T=4)
+INFO:cache_ohlc:[CACHE] HIT: EUR/JPY 1day
+  - [SCORE] BB_MR_D1 @ EUR/JPY: score=0.854 (PF=8.94, Sh=1.35, DD=0.00, T=4)
+INFO:cache_ohlc:[CACHE] HIT: NZD/JPY 1day
+  - [SCORE] BB_MR_D1 @ NZD/JPY: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CAD/CHF 1day
+  - [SCORE] BB_MR_D1 @ CAD/CHF: score=0.812 (PF=3.25, Sh=0.85, DD=0.00, T=4)
+INFO:cache_ohlc:[CACHE] HIT: NZD/USD 1day
+  - [SCORE] BB_MR_D1 @ NZD/USD: score=0.400 (PF=0.86, Sh=-0.15, DD=0.01, T=5)
+INFO:cache_ohlc:[CACHE] HIT: NZD/CAD 1day
+  - [SCORE] BB_MR_D1 @ NZD/CAD: score=0.396 (PF=0.00, Sh=1.24, DD=0.00, T=3)
+INFO:cache_ohlc:[CACHE] HIT: USD/SEK 1day
+  - [SCORE] BB_MR_D1 @ USD/SEK: score=0.387 (PF=0.85, Sh=-0.15, DD=0.02, T=5)
+-> Punteggio medio globale per BB_MR_D1: 0.5574
+
+Analizzando strategia: Donchian_BO_D1 (D1)...
+INFO:cache_ohlc:[CACHE] HIT: AUD/CAD 1day
+  - [SCORE] Donchian_BO_D1 @ AUD/CAD: score=0.764 (PF=2.72, Sh=0.86, DD=0.01, T=11)
+INFO:cache_ohlc:[CACHE] HIT: CHF/JPY 1day
+  - [SCORE] Donchian_BO_D1 @ CHF/JPY: score=0.388 (PF=0.89, Sh=-0.24, DD=0.02, T=23)
+INFO:cache_ohlc:[CACHE] HIT: EUR/AUD 1day
+  - [SCORE] Donchian_BO_D1 @ EUR/AUD: score=0.389 (PF=0.93, Sh=-0.09, DD=0.05, T=21)
+INFO:cache_ohlc:[CACHE] HIT: EUR/NZD 1day
+  - [SCORE] Donchian_BO_D1 @ EUR/NZD: score=0.486 (PF=1.18, Sh=0.33, DD=0.01, T=17)
+INFO:cache_ohlc:[CACHE] HIT: GBP/NZD 1day
+  - [SCORE] Donchian_BO_D1 @ GBP/NZD: score=0.224 (PF=0.34, Sh=-1.73, DD=0.04, T=15)
+INFO:cache_ohlc:[CACHE] HIT: CAD/JPY 1day
+  - [SCORE] Donchian_BO_D1 @ CAD/JPY: score=0.230 (PF=0.41, Sh=-1.24, DD=0.05, T=13)
+INFO:cache_ohlc:[CACHE] HIT: GBP/JPY 1day
+  - [SCORE] Donchian_BO_D1 @ GBP/JPY: score=0.239 (PF=0.44, Sh=-1.53, DD=0.04, T=15)
+INFO:cache_ohlc:[CACHE] HIT: AUD/JPY 1day
+  - [SCORE] Donchian_BO_D1 @ AUD/JPY: score=0.488 (PF=1.22, Sh=0.39, DD=0.02, T=14)
+INFO:cache_ohlc:[CACHE] HIT: USD/JPY 1day
+  - [SCORE] Donchian_BO_D1 @ USD/JPY: score=0.238 (PF=0.49, Sh=-1.29, DD=0.05, T=16)
+INFO:cache_ohlc:[CACHE] HIT: GBP/AUD 1day
+  - [SCORE] Donchian_BO_D1 @ GBP/AUD: score=0.241 (PF=0.39, Sh=-1.52, DD=0.03, T=17)
+INFO:cache_ohlc:[CACHE] HIT: EUR/JPY 1day
+  - [SCORE] Donchian_BO_D1 @ EUR/JPY: score=0.267 (PF=0.58, Sh=-1.11, DD=0.03, T=19)
+INFO:cache_ohlc:[CACHE] HIT: NZD/JPY 1day
+  - [SCORE] Donchian_BO_D1 @ NZD/JPY: score=0.267 (PF=0.56, Sh=-1.00, DD=0.03, T=15)
+INFO:cache_ohlc:[CACHE] HIT: CAD/CHF 1day
+  - [SCORE] Donchian_BO_D1 @ CAD/CHF: score=0.280 (PF=0.55, Sh=-0.81, DD=0.03, T=12)
+INFO:cache_ohlc:[CACHE] HIT: NZD/USD 1day
+  - [SCORE] Donchian_BO_D1 @ NZD/USD: score=0.230 (PF=0.39, Sh=-1.58, DD=0.04, T=18)
+INFO:cache_ohlc:[CACHE] HIT: NZD/CAD 1day
+  - [SCORE] Donchian_BO_D1 @ NZD/CAD: score=0.213 (PF=0.19, Sh=-1.73, DD=0.02, T=11)
+INFO:cache_ohlc:[CACHE] HIT: USD/SEK 1day
+  - [SCORE] Donchian_BO_D1 @ USD/SEK: score=0.408 (PF=1.00, Sh=0.00, DD=0.04, T=16)
+-> Punteggio medio globale per Donchian_BO_D1: 0.3345
+
+Analizzando strategia: Keltner_Trend_D1 (D1)...
+INFO:cache_ohlc:[CACHE] HIT: AUD/CAD 1day
+  - [SCORE] Keltner_Trend_D1 @ AUD/CAD: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CHF/JPY 1day
+  - [SCORE] Keltner_Trend_D1 @ CHF/JPY: score=0.467 (PF=1.12, Sh=0.28, DD=0.02, T=10)
+INFO:cache_ohlc:[CACHE] HIT: EUR/AUD 1day
+  - [SCORE] Keltner_Trend_D1 @ EUR/AUD: score=0.645 (PF=2.03, Sh=0.84, DD=0.03, T=3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/NZD 1day
+  - [SCORE] Keltner_Trend_D1 @ EUR/NZD: score=0.452 (PF=1.11, Sh=0.18, DD=0.03, T=5)
+INFO:cache_ohlc:[CACHE] HIT: GBP/NZD 1day
+  - [SCORE] Keltner_Trend_D1 @ GBP/NZD: score=0.341 (PF=0.73, Sh=-0.49, DD=0.02, T=7)
+INFO:cache_ohlc:[CACHE] HIT: CAD/JPY 1day
+  - [SCORE] Keltner_Trend_D1 @ CAD/JPY: score=0.221 (PF=0.27, Sh=-1.79, DD=0.03, T=8)
+INFO:cache_ohlc:[CACHE] HIT: GBP/JPY 1day
+  - [SCORE] Keltner_Trend_D1 @ GBP/JPY: score=0.307 (PF=0.60, Sh=-0.64, DD=0.02, T=3)
+INFO:cache_ohlc:[CACHE] HIT: AUD/JPY 1day
+  - [SCORE] Keltner_Trend_D1 @ AUD/JPY: score=0.226 (PF=0.45, Sh=-0.96, DD=0.07, T=7)
+INFO:cache_ohlc:[CACHE] HIT: USD/JPY 1day
+  - [SCORE] Keltner_Trend_D1 @ USD/JPY: score=0.291 (PF=0.70, Sh=-0.75, DD=0.05, T=11)
+INFO:cache_ohlc:[CACHE] HIT: GBP/AUD 1day
+  - [SCORE] Keltner_Trend_D1 @ GBP/AUD: score=0.318 (PF=0.65, Sh=-0.53, DD=0.03, T=5)
+INFO:cache_ohlc:[CACHE] HIT: EUR/JPY 1day
+  - [SCORE] Keltner_Trend_D1 @ EUR/JPY: score=0.288 (PF=0.64, Sh=-0.92, DD=0.02, T=11)
+INFO:cache_ohlc:[CACHE] HIT: NZD/JPY 1day
+  - [SCORE] Keltner_Trend_D1 @ NZD/JPY: score=0.268 (PF=0.53, Sh=-0.76, DD=0.05, T=7)
+INFO:cache_ohlc:[CACHE] HIT: CAD/CHF 1day
+  - [SCORE] Keltner_Trend_D1 @ CAD/CHF: score=0.218 (PF=0.34, Sh=-1.27, DD=0.05, T=9)
+INFO:cache_ohlc:[CACHE] HIT: NZD/USD 1day
+  - [SCORE] Keltner_Trend_D1 @ NZD/USD: score=0.250 (PF=0.49, Sh=-1.19, DD=0.04, T=11)
+INFO:cache_ohlc:[CACHE] HIT: NZD/CAD 1day
+  - [SCORE] Keltner_Trend_D1 @ NZD/CAD: score=0.351 (PF=0.69, Sh=-0.35, DD=0.01, T=5)
+INFO:cache_ohlc:[CACHE] HIT: USD/SEK 1day
+  - [SCORE] Keltner_Trend_D1 @ USD/SEK: score=0.353 (PF=0.83, Sh=-0.37, DD=0.04, T=14)
+-> Punteggio medio globale per Keltner_Trend_D1: 0.3332
+
+Analizzando strategia: Keltner_MR_H4 (H4)...
+INFO:cache_ohlc:[CACHE] HIT: AUD/CAD 4h
+  - [SCORE] Keltner_MR_H4 @ AUD/CAD: score=0.332 (PF=0.87, Sh=-0.86, DD=0.02, T=10)
+INFO:cache_ohlc:[CACHE] HIT: CHF/JPY 4h
+  - [SCORE] Keltner_MR_H4 @ CHF/JPY: score=0.315 (PF=0.86, Sh=-1.02, DD=0.02, T=14)
+INFO:cache_ohlc:[CACHE] HIT: EUR/AUD 4h
+  - [SCORE] Keltner_MR_H4 @ EUR/AUD: score=0.817 (PF=1.82, Sh=3.83, DD=0.01, T=19)
+INFO:cache_ohlc:[CACHE] HIT: EUR/NZD 4h
+  - [SCORE] Keltner_MR_H4 @ EUR/NZD: score=0.734 (PF=1.47, Sh=2.65, DD=0.01, T=23)
+INFO:cache_ohlc:[CACHE] HIT: GBP/NZD 4h
+  - [SCORE] Keltner_MR_H4 @ GBP/NZD: score=0.937 (PF=2.61, Sh=4.76, DD=0.01, T=20)
+INFO:cache_ohlc:[CACHE] HIT: CAD/JPY 4h
+  - [SCORE] Keltner_MR_H4 @ CAD/JPY: score=0.346 (PF=0.91, Sh=-0.69, DD=0.03, T=17)
+INFO:cache_ohlc:[CACHE] HIT: GBP/JPY 4h
+  - [SCORE] Keltner_MR_H4 @ GBP/JPY: score=0.605 (PF=1.29, Sh=1.56, DD=0.02, T=13)
+INFO:cache_ohlc:[CACHE] HIT: AUD/JPY 4h
+  - [SCORE] Keltner_MR_H4 @ AUD/JPY: score=0.382 (PF=0.95, Sh=-0.35, DD=0.03, T=19)
+INFO:cache_ohlc:[CACHE] HIT: USD/JPY 4h
+  - [SCORE] Keltner_MR_H4 @ USD/JPY: score=0.428 (PF=1.01, Sh=0.09, DD=0.03, T=18)
+INFO:cache_ohlc:[CACHE] HIT: GBP/AUD 4h
+  - [SCORE] Keltner_MR_H4 @ GBP/AUD: score=0.619 (PF=1.30, Sh=1.61, DD=0.01, T=17)
+INFO:cache_ohlc:[CACHE] HIT: EUR/JPY 4h
+  - [SCORE] Keltner_MR_H4 @ EUR/JPY: score=0.599 (PF=1.26, Sh=1.53, DD=0.02, T=15)
+INFO:cache_ohlc:[CACHE] HIT: NZD/JPY 4h
+  - [SCORE] Keltner_MR_H4 @ NZD/JPY: score=0.566 (PF=1.18, Sh=1.28, DD=0.02, T=23)
+INFO:cache_ohlc:[CACHE] HIT: CAD/CHF 4h
+  - [SCORE] Keltner_MR_H4 @ CAD/CHF: score=0.408 (PF=0.96, Sh=-0.19, DD=0.01, T=6)
+INFO:cache_ohlc:[CACHE] HIT: NZD/USD 4h
+  - [SCORE] Keltner_MR_H4 @ NZD/USD: score=0.743 (PF=1.43, Sh=2.88, DD=0.01, T=24)
+INFO:cache_ohlc:[CACHE] HIT: NZD/CAD 4h
+  - [SCORE] Keltner_MR_H4 @ NZD/CAD: score=0.341 (PF=0.90, Sh=-0.78, DD=0.02, T=12)
+INFO:cache_ohlc:[CACHE] HIT: USD/SEK 4h
+  - [SCORE] Keltner_MR_H4 @ USD/SEK: score=0.937 (PF=2.60, Sh=4.97, DD=0.01, T=16)
+-> Punteggio medio globale per Keltner_MR_H4: 0.5694
+
+Analizzando strategia: BB_Squeeze_BO_D1 (D1)...
+INFO:cache_ohlc:[CACHE] HIT: AUD/CAD 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ AUD/CAD: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CHF/JPY 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ CHF/JPY: score=0.191 (PF=0.00, Sh=-1.14, DD=0.01, T=3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/AUD 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ EUR/AUD: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/NZD 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ EUR/NZD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: GBP/NZD 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ GBP/NZD: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CAD/JPY 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ CAD/JPY: score=0.186 (PF=0.05, Sh=-1.67, DD=0.03, T=5)
+INFO:cache_ohlc:[CACHE] HIT: GBP/JPY 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ GBP/JPY: score=0.384 (PF=0.80, Sh=-0.23, DD=0.00, T=4)
+INFO:cache_ohlc:[CACHE] HIT: AUD/JPY 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ AUD/JPY: score=0.407 (PF=0.92, Sh=-0.12, DD=0.01, T=5)
+INFO:cache_ohlc:[CACHE] HIT: USD/JPY 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ USD/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: GBP/AUD 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ GBP/AUD: score=0.249 (PF=0.28, Sh=-0.79, DD=0.02, T=3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/JPY 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ EUR/JPY: score=0.189 (PF=0.00, Sh=-1.50, DD=0.02, T=3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/JPY 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ NZD/JPY: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CAD/CHF 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ CAD/CHF: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/USD 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ NZD/USD: score=0.314 (PF=0.47, Sh=-0.50, DD=0.00, T=3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/CAD 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ NZD/CAD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: USD/SEK 1day
+  - [SCORE] BB_Squeeze_BO_D1 @ USD/SEK: score=0.193 (PF=0.00, Sh=-1.53, DD=0.01, T=3)
+-> Punteggio medio globale per BB_Squeeze_BO_D1: 0.2643
+
+Analizzando strategia: VolTarget_Trend_D1 (D1)...
+INFO:cache_ohlc:[CACHE] HIT: AUD/CAD 1day
+  - [SCORE] VolTarget_Trend_D1 @ AUD/CAD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CHF/JPY 1day
+  - [SCORE] VolTarget_Trend_D1 @ CHF/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/AUD 1day
+  - [SCORE] VolTarget_Trend_D1 @ EUR/AUD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/NZD 1day
+  - [SCORE] VolTarget_Trend_D1 @ EUR/NZD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: GBP/NZD 1day
+  - [SCORE] VolTarget_Trend_D1 @ GBP/NZD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CAD/JPY 1day
+  - [SCORE] VolTarget_Trend_D1 @ CAD/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: GBP/JPY 1day
+  - [SCORE] VolTarget_Trend_D1 @ GBP/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: AUD/JPY 1day
+  - [SCORE] VolTarget_Trend_D1 @ AUD/JPY: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: USD/JPY 1day
+  - [SCORE] VolTarget_Trend_D1 @ USD/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: GBP/AUD 1day
+  - [SCORE] VolTarget_Trend_D1 @ GBP/AUD: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/JPY 1day
+  - [SCORE] VolTarget_Trend_D1 @ EUR/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/JPY 1day
+  - [SCORE] VolTarget_Trend_D1 @ NZD/JPY: score=0.210 (PF=0.79, Sh=-1.23, DD=0.16, T=3)
+INFO:cache_ohlc:[CACHE] HIT: CAD/CHF 1day
+  - [SCORE] VolTarget_Trend_D1 @ CAD/CHF: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/USD 1day
+  - [SCORE] VolTarget_Trend_D1 @ NZD/USD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/CAD 1day
+  - [SCORE] VolTarget_Trend_D1 @ NZD/CAD: scartato, pochi trade (2 < 3)
+INFO:cache_ohlc:[CACHE] HIT: USD/SEK 1day
+  - [SCORE] VolTarget_Trend_D1 @ USD/SEK: scartato, pochi trade (1 < 3)
+-> Punteggio medio globale per VolTarget_Trend_D1: 0.21
+
+Analizzando strategia: Regime_Switcher_D1 (D1)...
+INFO:cache_ohlc:[CACHE] HIT: AUD/CAD 1day
+  - [SCORE] Regime_Switcher_D1 @ AUD/CAD: scartato, pochi trade (0 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CHF/JPY 1day
+  - [SCORE] Regime_Switcher_D1 @ CHF/JPY: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: EUR/AUD 1day
+  - [SCORE] Regime_Switcher_D1 @ EUR/AUD: score=0.246 (PF=0.56, Sh=-0.80, DD=0.08, T=13)
+INFO:cache_ohlc:[CACHE] HIT: EUR/NZD 1day
+  - [SCORE] Regime_Switcher_D1 @ EUR/NZD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: GBP/NZD 1day
+  - [SCORE] Regime_Switcher_D1 @ GBP/NZD: scartato, pochi trade (1 < 3)
+INFO:cache_ohlc:[CACHE] HIT: CAD/JPY 1day
+  - [SCORE] Regime_Switcher_D1 @ CAD/JPY: score=0.925 (PF=9.62, Sh=2.18, DD=0.01, T=14)
+INFO:cache_ohlc:[CACHE] HIT: GBP/JPY 1day
+  - [SCORE] Regime_Switcher_D1 @ GBP/JPY: scartato, pochi trade (0 < 3)
+INFO:cache_ohlc:[CACHE] HIT: AUD/JPY 1day
+  - [SCORE] Regime_Switcher_D1 @ AUD/JPY: score=0.403 (PF=1.03, Sh=0.04, DD=0.06, T=13)
+INFO:cache_ohlc:[CACHE] HIT: USD/JPY 1day
+  - [SCORE] Regime_Switcher_D1 @ USD/JPY: score=0.544 (PF=1.43, Sh=0.64, DD=0.02, T=13)
+INFO:cache_ohlc:[CACHE] HIT: GBP/AUD 1day
+  - [SCORE] Regime_Switcher_D1 @ GBP/AUD: score=0.663 (PF=1.95, Sh=1.09, DD=0.02, T=11)
+INFO:cache_ohlc:[CACHE] HIT: EUR/JPY 1day
+  - [SCORE] Regime_Switcher_D1 @ EUR/JPY: scartato, pochi trade (0 < 3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/JPY 1day
+  - [SCORE] Regime_Switcher_D1 @ NZD/JPY: score=0.556 (PF=1.50, Sh=0.62, DD=0.02, T=10)
+INFO:cache_ohlc:[CACHE] HIT: CAD/CHF 1day
+  - [SCORE] Regime_Switcher_D1 @ CAD/CHF: scartato, pochi trade (0 < 3)
+INFO:cache_ohlc:[CACHE] HIT: NZD/USD 1day
+  - [SCORE] Regime_Switcher_D1 @ NZD/USD: score=0.907 (PF=5.68, Sh=2.02, DD=0.01, T=14)
+INFO:cache_ohlc:[CACHE] HIT: NZD/CAD 1day
+  - [SCORE] Regime_Switcher_D1 @ NZD/CAD: score=0.431 (PF=1.00, Sh=-0.00, DD=0.01, T=7)
+INFO:cache_ohlc:[CACHE] HIT: USD/SEK 1day
+  - [SCORE] Regime_Switcher_D1 @ USD/SEK: scartato, pochi trade (0 < 3)
+-> Punteggio medio globale per Regime_Switcher_D1: 0.5844
+
+✅ Sentinel completato. Salvato roster in params\strategy_roster.json
+⚠️ Telegram send failed: HTTPError('400 Client Error: Bad Request for url: https://api.telegram.org/bot7822023821:AAEcQGt0dS4og9Z1wtJIoXYGPNIsEDWRkB8/sendMessage')

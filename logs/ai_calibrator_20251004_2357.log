@@ -1,0 +1,7 @@
+[04/10/2025 23:57:51,25] START AI Calibrator 
+[2025-10-04 23:57:51] AI Calibrator v1 starting...
+[2025-10-04 23:57:51] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_20251004_2348.log
+[2025-10-04 23:57:51] OOS PASSED: [] | OOS FAILED: ['AUD/USD', 'EUR/JPY', 'EUR/USD', 'GBP/JPY', 'GBP/USD', 'GOLD', 'SILVER', 'USD/JPY']
+[2025-10-04 23:57:51] Decisione scritta: C:\AUTOMAZIONE\reports\retrain_decision_20251004_235751.json
+[2025-10-04 23:57:51] current.json aggiornato con backup e history. Azione: PAUSE_GLOBAL
+[04/10/2025 23:57:51,43] END AI Calibrator 

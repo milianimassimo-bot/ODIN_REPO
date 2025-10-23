@@ -1,0 +1,6 @@
+[08/10/2025 19:00:01,71] START WATCHDOG 
+2025-10-08 19:00:03,449 | INFO | ODIN Watchdog bootstrap…
+2025-10-08 19:00:03,477 | ERROR | [PARAMS] errore: JSONDecodeError('Extra data: line 57 column 1 (char 958)')
+2025-10-08 19:00:03,477 | INFO | ODIN Watchdog — 2025-10-08 17:00:03 UTC — equity=5636.72 EUR
+2025-10-08 19:00:03,477 | INFO | Nessuna posizione aperta.
+[08/10/2025 19:00:04,66] END WATCHDOG 

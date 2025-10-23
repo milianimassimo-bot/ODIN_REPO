@@ -1,0 +1,40 @@
+[14/10/2025  2:05:01,54] START ODIN_DAILY 
+--- MODULO 1: REGIME --- 
+--- Avvio Filtro di Regime ODIN v1.3.2 ---
+--- Avvio Preflight Check ---
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 352, in <module>
+    main()
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 241, in main
+    ASSET_RESOLVED = preflight_symbols(td, ASSET_PORTFOLIO, INTERVAL, OUTPUTSIZE)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 150, in preflight_symbols
+    _log("\n\u26a0\ufe0f  Preflight: esclusi per problemi:")
+  File "C:\AUTOMAZIONE\regime_filterV2.py", line 69, in _log
+    print(msg, flush=True)
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 2-3: character maps to <undefined>
+--- MODULO 4: MAIN (with summary) --- 
+2025-10-14 02:05:07,291 | INFO | [PARAMS] Caricati da: C:\AUTOMAZIONE\params\current.json
+[MacroGate] risk_caps_multiplier=0.85 | asset_overrides=AUD/USD, EUR/USD, GBP/USD, GOLD, NZD/USD, SILVER | guardrails={}
+2025-10-14 02:05:07,317 | INFO | --- Avvio Sala Decisionale ODIN v2.4 (PROD) ---
+2025-10-14 02:05:07,319 | INFO | [NewsGate] enable=True | file=news_blackout.json | finestre=0
+2025-10-14 02:05:07,336 | INFO | Connessione a MT5 stabilita.
+2025-10-14 02:05:07,336 | INFO | Equity attuale: 5636.72 EUR
+2025-10-14 02:05:07,343 | INFO | Regime v1.3.2 OK (sha1 21c636001e)
+2025-10-14 02:05:08,393 | INFO | [NO-SIGNAL] EUR/JPY: nessun setup valido (regime=TRENDING).
+2025-10-14 02:05:09,393 | INFO | [SIG-DBG] GBP/JPY: WEEKLY: pullback dist_atr=1.57 non in [0.4,1.3]
+2025-10-14 02:05:09,393 | INFO | [NO-SIGNAL] GBP/JPY: WEEKLY: pullback dist_atr=1.57 non in [0.4,1.3]
+2025-10-14 02:05:10,458 | INFO | [SIG-DBG] GOLD: WEEKLY: turbolenza alta vs contesto (ATR%/BBW)
+2025-10-14 02:05:10,458 | INFO | [NO-SIGNAL] GOLD: WEEKLY: turbolenza alta vs contesto (ATR%/BBW)
+2025-10-14 02:05:11,547 | INFO | [SIG-DBG] SILVER: WEEKLY: turbolenza alta vs contesto (ATR%/BBW)
+2025-10-14 02:05:11,547 | INFO | [NO-SIGNAL] SILVER: WEEKLY: turbolenza alta vs contesto (ATR%/BBW)
+2025-10-14 02:05:12,734 | INFO | [SIG-DBG] SP500: WEEKLY: turbolenza alta vs contesto (ATR%/BBW)
+2025-10-14 02:05:12,734 | INFO | [NO-SIGNAL] SP500: WEEKLY: turbolenza alta vs contesto (ATR%/BBW)
+2025-10-14 02:05:13,827 | INFO | [NO-SIGNAL] AUD/USD: nessun setup valido (regime=LATERALE).
+2025-10-14 02:05:14,910 | INFO | [NO-SIGNAL] GBP/USD: nessun setup valido (regime=LATERALE).
+2025-10-14 02:05:14,910 | INFO | --- Sessione decisionale completata ---
+2025-10-14 02:05:15,808 | INFO | Connessione a MT5 chiusa.
+[14/10/2025  2:05:16,91] END ODIN_DAILY 

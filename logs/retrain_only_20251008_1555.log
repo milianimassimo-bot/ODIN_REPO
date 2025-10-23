@@ -1,0 +1,9 @@
+[08/10/2025 15:55:42,05] START RETRAIN ONLY for: GOLD,EUR/USD 
+2025-10-08 15:55:43,204 | INFO | --- ODIN Retrain semestrale ---
+2025-10-08 15:55:44,113 | INFO | [EUR/USD] carico/aggiorno cache TwelveData…
+2025-10-08 15:55:46,408 | INFO | [EUR/USD] OOS FAILED
+2025-10-08 15:55:46,709 | INFO | [GOLD] carico/aggiorno cache TwelveData…
+2025-10-08 15:55:48,318 | INFO | [GOLD] OOS FAILED
+2025-10-08 15:55:48,627 | INFO | [WRITE] params/current.json aggiornato.
+2025-10-08 15:55:49,587 | INFO | Retrain completato.
+[08/10/2025 15:55:49,75] END RETRAIN ONLY (err=0) 

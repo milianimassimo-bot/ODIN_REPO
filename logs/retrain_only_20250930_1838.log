@@ -1,0 +1,2 @@
+[30/09/2025 18:38:19,64] ERRORE: devi passare almeno un asset, esempio: 
+  run_odin_retrain_only.bat "GOLD,EUR/USD" 

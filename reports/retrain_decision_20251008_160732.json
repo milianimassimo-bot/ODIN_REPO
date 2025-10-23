@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-10-08T14:07:32Z",
+  "mode": "FRESH_RETRAIN+MACRO",
+  "retrain_log": "C:\\AUTOMAZIONE\\logs\\retrain_only_20251008_1555.log",
+  "changed": [
+    "GOLD.allow_new_entries=True",
+    "SILVER.allow_new_entries=True",
+    "AUD/USD.allow_new_entries=True",
+    "NZD/USD.allow_new_entries=True"
+  ]
+}

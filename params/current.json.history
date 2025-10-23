@@ -1,0 +1,102 @@
+[
+  {
+    "time": "2025-10-04 23:42:41",
+    "source_log": "retrain_light_20251004_1907.log",
+    "oos_passed": [],
+    "oos_failed": [
+      "AUD/USD",
+      "EUR/JPY",
+      "EUR/USD",
+      "GBP/JPY",
+      "GBP/USD",
+      "GOLD",
+      "SILVER",
+      "USD/JPY"
+    ],
+    "action": "PAUSE_GLOBAL",
+    "notes": "Nessun asset in PASSED; metto/lascia global.paused = true."
+  },
+  {
+    "time": "2025-10-04 23:57:51",
+    "source_log": "retrain_20251004_2348.log",
+    "oos_passed": [],
+    "oos_failed": [
+      "AUD/USD",
+      "EUR/JPY",
+      "EUR/USD",
+      "GBP/JPY",
+      "GBP/USD",
+      "GOLD",
+      "SILVER",
+      "USD/JPY"
+    ],
+    "action": "PAUSE_GLOBAL",
+    "notes": "Nessun asset in PASSED; metto/lascia global.paused = true."
+  },
+  {
+    "time": "2025-10-05 00:02:13",
+    "source_log": "retrain_20251004_2348.log",
+    "oos_passed": [],
+    "oos_failed": [
+      "AUD/USD",
+      "EUR/JPY",
+      "EUR/USD",
+      "GBP/JPY",
+      "GBP/USD",
+      "GOLD",
+      "SILVER",
+      "USD/JPY"
+    ],
+    "action": "PAUSE_GLOBAL",
+    "notes": "Nessun asset in PASSED; mantengo/metto pausa globale."
+  },
+  {
+    "time": "2025-10-05 00:02:31",
+    "source_log": "retrain_20251004_2348.log",
+    "oos_passed": [],
+    "oos_failed": [
+      "AUD/USD",
+      "EUR/JPY",
+      "EUR/USD",
+      "GBP/JPY",
+      "GBP/USD",
+      "GOLD",
+      "SILVER",
+      "USD/JPY"
+    ],
+    "action": "PAUSE_GLOBAL",
+    "notes": "Nessun asset in PASSED; mantengo/metto pausa globale."
+  },
+  {
+    "time": "2025-10-06 03:20:01",
+    "source_log": "retrain_light_20251006_0300.log",
+    "oos_passed": [],
+    "oos_failed": [
+      "AUD/USD",
+      "EUR/JPY",
+      "EUR/USD",
+      "GBP/JPY",
+      "GBP/USD",
+      "GOLD",
+      "SILVER",
+      "USD/JPY"
+    ],
+    "action": "PAUSE_GLOBAL",
+    "notes": "Nessun asset in PASSED; mantengo/metto pausa globale."
+  }
+]{"ts": "2025-10-06T22:06:18Z", "action": "FRESH_RETRAIN+MACRO", "changed": []}
+{"ts": "2025-10-06T22:12:06Z", "action": "FRESH_RETRAIN+MACRO", "changed": []}
+{"ts": "2025-10-06T22:18:49Z", "action": "FRESH_RETRAIN+MACRO", "changed": ["risk_caps x1.0", "GOLD.allow_new_entries=True", "SILVER.allow_new_entries=True", "AUD/USD.allow_new_entries=True", "NZD/USD.allow_new_entries=True", "USD/CAD.allow_new_entries=True"]}
+{"ts": "2025-10-06T22:32:24Z", "action": "FRESH_RETRAIN+MACRO", "changed": ["risk_caps x1.0", "global.paused=False"]}
+{"ts": "2025-10-06T22:33:04Z", "action": "FRESH_RETRAIN+MACRO", "changed": ["risk_caps x1.0"]}
+{"ts": "2025-10-06T22:34:16Z", "action": "FRESH_RETRAIN+MACRO", "changed": ["risk_caps x1.0"]}
+{"ts": "2025-10-06T22:40:30Z", "action": "FRESH_RETRAIN+MACRO", "changed": ["risk_caps x1.0"]}
+{"ts": "2025-10-07T01:50:01Z", "action": "FRESH_RETRAIN+MACRO", "changed": ["risk_caps x1.0"]}
+{"ts": "2025-10-07T06:20:02Z", "action": "FRESH_RETRAIN+MACRO", "changed": ["risk_caps x1.0"]}
+{"ts": "2025-10-07T09:18:27Z", "action": "FRESH_RETRAIN+MACRO", "changed": ["risk_caps x1.0"]}
+{"ts": "2025-10-07T20:20:02Z", "action": "FRESH_RETRAIN+MACRO", "changed": []}
+{"ts": "2025-10-08T06:20:01Z", "action": "MACRO_ONLY_APPLY", "changed": []}
+{"ts": "2025-10-08T11:26:51Z", "action": "MACRO_ONLY_APPLY", "changed": ["risk_caps x1.0"]}
+{"ts": "2025-10-08T13:52:44Z", "action": "MACRO_ONLY_APPLY", "changed": ["risk_caps x1.0"]}
+{"ts": "2025-10-08T13:55:53Z", "action": "FRESH_RETRAIN+MACRO", "changed": ["risk_caps x1.0"]}
+{"ts": "2025-10-08T14:07:32Z", "action": "FRESH_RETRAIN+MACRO", "changed": ["GOLD.allow_new_entries=True", "SILVER.allow_new_entries=True", "AUD/USD.allow_new_entries=True", "NZD/USD.allow_new_entries=True"]}

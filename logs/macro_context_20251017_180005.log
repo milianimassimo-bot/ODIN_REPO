@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-10-17T16:00:05Z",
+  "risk_state": "high",
+  "usd_bias": "neutral",
+  "vol_state": "elevated",
+  "commodities_bias": "strong",
+  "confidence": 0.8,
+  "bias_summary": "Risk=high | USD=neutral | Vol=elevated | Commd=strong",
+  "inputs": {
+    "spx_5d_ret": 0.0132,
+    "vix_last": 24.13,
+    "eurusd_5d": 0.0012,
+    "gold_5d": 0.0716
+  }
+}

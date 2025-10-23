@@ -1,0 +1,73 @@
+{
+  "profiles": [
+    {
+      "name": "UltraSoft",
+      "mult": 0.6,
+      "allow": [
+        "EUR/USD",
+        "GBP/USD",
+        "USD/JPY",
+        "AUD/USD"
+      ]
+    },
+    {
+      "name": "Soft",
+      "mult": 0.8,
+      "allow": [
+        "EUR/USD",
+        "GBP/USD",
+        "USD/JPY",
+        "AUD/USD"
+      ]
+    },
+    {
+      "name": "Neutral",
+      "mult": 1.0,
+      "allow": [
+        "EUR/USD",
+        "GBP/USD",
+        "USD/JPY",
+        "AUD/USD",
+        "GOLD",
+        "SILVER"
+      ]
+    },
+    {
+      "name": "Active",
+      "mult": 1.2,
+      "allow": [
+        "EUR/USD",
+        "GBP/USD",
+        "USD/JPY",
+        "AUD/USD",
+        "GOLD",
+        "SILVER",
+        "SP500"
+      ]
+    },
+    {
+      "name": "Push",
+      "mult": 1.4,
+      "allow": [
+        "EUR/USD",
+        "GBP/USD",
+        "USD/JPY",
+        "AUD/USD",
+        "GOLD",
+        "SILVER",
+        "SP500"
+      ]
+    }
+  ],
+  "suggestion": {
+    "suggested_utc": "2025-10-17T13:07:49Z",
+    "profile": "UltraSoft",
+    "risk_caps_multiplier": 0.6,
+    "allow_entries": [
+      "EUR/USD",
+      "GBP/USD",
+      "USD/JPY",
+      "AUD/USD"
+    ]
+  }
+}

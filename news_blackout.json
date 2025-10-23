@@ -1,0 +1,17 @@
+{
+  "global": false,
+  "until_utc": null,
+
+  "assets": {
+    "GOLD":   { "until_utc": null },
+    "SILVER": { "until_utc": null }
+  },
+
+  "strategies": {
+    "WEEKLY": { "until_utc": null },
+    "BB_MR":  { "until_utc": null }
+  }
+}
+
+  ]
+}

@@ -1,0 +1,135 @@
+[07/10/2025  0:06:17,93] START AI Calibrator 
+[2025-10-07 00:06:18] AI Calibrator v1.1 starting…
+[2025-10-07 00:06:18] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251006_0300.log (1265 min fa)
+[2025-10-07 00:06:19] [Telegram] Messaggio inviato.
+[2025-10-07 00:06:19] Done (fresh retrain).
+[07/10/2025  0:06:19,14] END AI Calibrator 
+[07/10/2025  0:12:06,60] START AI Calibrator 
+[2025-10-07 00:12:06] AI Calibrator v1.1 starting…
+[2025-10-07 00:12:06] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251006_0300.log (1271 min fa)
+[2025-10-07 00:12:07] [Telegram] Messaggio inviato.
+[2025-10-07 00:12:07] Done (fresh retrain).
+[07/10/2025  0:12:07,89] END AI Calibrator 
+[07/10/2025  0:18:49,40] START AI Calibrator 
+[2025-10-07 00:18:49] AI Calibrator v1.1 starting…
+[2025-10-07 00:18:49] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251006_0300.log (1278 min fa)
+[2025-10-07 00:18:50] [Telegram] Messaggio inviato.
+[2025-10-07 00:18:50] Done (fresh retrain).
+[07/10/2025  0:18:50,56] END AI Calibrator 
+[07/10/2025  0:33:04,42] START AI Calibrator 
+[2025-10-07 00:33:04] AI Calibrator v1.2 starting…
+[2025-10-07 00:33:04] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251006_0300.log (1292 min fa)
+[2025-10-07 00:33:05] [Telegram] Messaggio inviato.
+[2025-10-07 00:33:05] Done (fresh retrain).
+[07/10/2025  0:33:05,63] END AI Calibrator 
+[07/10/2025  0:40:30,23] START AI Calibrator 
+[2025-10-07 00:40:30] AI Calibrator v1.2 starting…
+[2025-10-07 00:40:30] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251006_0300.log (1300 min fa)
+[2025-10-07 00:40:31] [Telegram] Messaggio inviato.
+[2025-10-07 00:40:31] Done (fresh retrain).
+[07/10/2025  0:40:31,61] END AI Calibrator 
+[07/10/2025  3:50:01,27] START AI Calibrator 
+[2025-10-07 03:50:01] AI Calibrator v1.2 starting…
+[2025-10-07 03:50:01] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251007_0330.log (19 min fa)
+[2025-10-07 03:50:02] [Telegram] Messaggio inviato.
+[2025-10-07 03:50:02] Done (fresh retrain).
+[07/10/2025  3:50:02,79] END AI Calibrator 
+[07/10/2025  8:20:01,63] START AI Calibrator 
+[2025-10-07 08:20:02] AI Calibrator v1.2 starting…
+[2025-10-07 08:20:02] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251007_0330.log (289 min fa)
+[2025-10-07 08:20:02] [Telegram] Messaggio inviato.
+[2025-10-07 08:20:02] Done (fresh retrain).
+[07/10/2025  8:20:02,98] END AI Calibrator 
+[07/10/2025 11:18:27,08] START AI Calibrator 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] ai_calibrator.py 
+[2025-10-07 11:18:27] AI Calibrator v1.2 starting…
+[2025-10-07 11:18:27] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251007_0330.log (468 min fa)
+[2025-10-07 11:18:28] [Telegram] Messaggio inviato.
+[2025-10-07 11:18:28] Done (fresh retrain).
+[DONE] ai_calibrator.py 
+[07/10/2025 22:20:01,67] START AI Calibrator 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] ai_calibrator.py 
+[2025-10-07 22:20:02] AI Calibrator v1.2 starting…
+[2025-10-07 22:20:02] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251007_0330.log (1129 min fa)
+[2025-10-07 22:20:02] [Telegram] Messaggio inviato.
+[2025-10-07 22:20:02] Done (fresh retrain).
+[DONE] ai_calibrator.py 
+[08/10/2025  8:20:01,33] START AI Calibrator 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] ai_calibrator.py 
+[2025-10-08 08:20:01] AI Calibrator v1.2 starting…
+[2025-10-08 08:20:01] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251007_0330.log (1729 min fa)
+[2025-10-08 08:20:01] Retrain stale (> 1440 min).
+[2025-10-08 08:20:02] [Telegram] Messaggio inviato.
+[2025-10-08 08:20:02] Done (macro-only apply).
+[DONE] ai_calibrator.py 
+[08/10/2025 13:26:51,51] START AI Calibrator 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] ai_calibrator.py 
+[2025-10-08 13:26:51] AI Calibrator v1.2 starting…
+[2025-10-08 13:26:51] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251007_0330.log (2036 min fa)
+[2025-10-08 13:26:51] Retrain stale (> 1440 min).
+[2025-10-08 13:26:52] [Telegram] Messaggio inviato.
+[2025-10-08 13:26:52] Done (macro-only apply).
+[DONE] ai_calibrator.py 
+[08/10/2025 15:52:44,44] START AI Calibrator 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] ai_calibrator.py 
+[2025-10-08 15:52:44] AI Calibrator v1.2 starting…
+[2025-10-08 15:52:44] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_light_20251007_0330.log (2182 min fa)
+[2025-10-08 15:52:44] Retrain stale (> 1440 min).
+[2025-10-08 15:52:45] [Telegram] Messaggio inviato.
+[2025-10-08 15:52:45] Done (macro-only apply).
+[DONE] ai_calibrator.py 
+[08/10/2025 15:55:53,38] START AI Calibrator 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] ai_calibrator.py 
+[2025-10-08 15:55:53] AI Calibrator v1.2 starting…
+[2025-10-08 15:55:53] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_only_20251008_1555.log (0 min fa)
+[2025-10-08 15:55:54] [Telegram] Messaggio inviato.
+[2025-10-08 15:55:54] Done (fresh retrain).
+[DONE] ai_calibrator.py 
+[08/10/2025 16:07:31,73] START AI Calibrator 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] ai_calibrator.py 
+[2025-10-08 16:07:32] AI Calibrator v1.2 starting…
+[2025-10-08 16:07:32] Ultimo retrain log: C:\AUTOMAZIONE\logs\retrain_only_20251008_1555.log (11 min fa)
+[2025-10-08 16:07:33] [Telegram] Messaggio inviato.
+[2025-10-08 16:07:33] Done (fresh retrain).
+[DONE] ai_calibrator.py 
+[08/10/2025 22:20:01,67] START AI Calibrator 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] ai_calibrator.py 
+[2025-10-08T20:20:02Z] AI Calibrator v2 starting…
+[2025-10-08T20:20:03Z] Decisione scritta: C:\AUTOMAZIONE\reports\retrain_decision_20251008_202002.json
+[2025-10-08T20:20:03Z] Backup params: C:\AUTOMAZIONE\params\current.json.20251008_202002.bak
+[2025-10-08T20:20:03Z] current.json aggiornato con softeners/state.
+[DONE] ai_calibrator.py 
+[09/10/2025  8:20:02,10] START AI Calibrator 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] ai_calibrator.py 
+[2025-10-09T06:20:02Z] AI Calibrator v2 starting…
+[2025-10-09T06:20:03Z] Decisione scritta: C:\AUTOMAZIONE\reports\retrain_decision_20251009_062002.json
+[2025-10-09T06:20:03Z] Backup params: C:\AUTOMAZIONE\params\current.json.20251009_062002.bak
+[2025-10-09T06:20:03Z] current.json aggiornato con softeners/state.
+[DONE] ai_calibrator.py 
+[09/10/2025 15:02:15,91] START AI Calibrator 
+[ENV] TELEGRAM_BOT_TOKEN=SET
+[ENV] TELEGRAM_CHAT_ID=-1002752265278
+[RUN] ai_calibrator.py 
+🤖 AI Calibrator
+Azione: MACRO_ONLY_APPLY
+Changed: —
+Expired/Reverted: —
+[DONE] ai_calibrator.py 

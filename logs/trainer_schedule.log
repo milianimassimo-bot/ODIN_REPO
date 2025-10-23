@@ -1,0 +1,354 @@
+========================= 
+[11/10/2025 23:50:01,18] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:177: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 202, in <module>
+    main()
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 192, in main
+    print(f"\u2705 Report completo scritto in: {REPORT_OUT}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[11/10/2025 23:50:01,90] Fine trainer auto 
+========================= 
+[12/10/2025 23:50:01,57] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:177: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 202, in <module>
+    main()
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 192, in main
+    print(f"\u2705 Report completo scritto in: {REPORT_OUT}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[12/10/2025 23:50:02,47] Fine trainer auto 
+========================= 
+[13/10/2025 12:06:52,66] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:177: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 202, in <module>
+    main()
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 192, in main
+    print(f"\u2705 Report completo scritto in: {REPORT_OUT}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[13/10/2025 12:06:53,33] Fine trainer auto 
+========================= 
+[13/10/2025 12:33:48,51] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:43: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:212: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 244, in <module>
+    main()
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 236, in main
+    print(f"\u2705 Report completo: {REPORT_OUT}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[13/10/2025 12:33:52,00] Fine trainer auto 
+========================= 
+[13/10/2025 15:47:21,77] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:42: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:265: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 305, in <module>
+    main()
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 297, in main
+    print(f"\u2705 Report completo: {REPORT_OUT}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[13/10/2025 15:47:27,22] Fine trainer auto 
+========================= 
+[13/10/2025 15:47:56,76] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:42: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:265: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 305, in <module>
+    main()
+  File "C:\AUTOMAZIONE\trainer_suggest.py", line 297, in main
+    print(f"\u2705 Report completo: {REPORT_OUT}")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 0: character maps to <undefined>
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[13/10/2025 15:48:00,60] Fine trainer auto 
+========================= 
+[13/10/2025 23:50:01,26] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:270: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+✅ Report completo: C:\AUTOMAZIONE\logs\trainer_report_20251013_215001.txt
+🧠 Softeners generati in: C:\AUTOMAZIONE\params\softeners_plan.json
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[13/10/2025 23:50:04,09] Fine trainer auto 
+========================= 
+[14/10/2025 23:50:01,35] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:270: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+✅ Report completo: C:\AUTOMAZIONE\logs\trainer_report_20251014_215002.txt
+🧠 Softeners generati in: C:\AUTOMAZIONE\params\softeners_plan.json
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[14/10/2025 23:50:04,50] Fine trainer auto 
+========================= 
+[15/10/2025 23:50:01,89] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:270: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+✅ Report completo: C:\AUTOMAZIONE\logs\trainer_report_20251015_215002.txt
+🧠 Softeners generati in: C:\AUTOMAZIONE\params\softeners_plan.json
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[15/10/2025 23:50:04,99] Fine trainer auto 
+========================= 
+[16/10/2025 23:50:01,86] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:270: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+✅ Report completo: C:\AUTOMAZIONE\logs\trainer_report_20251016_215002.txt
+🧠 Softeners generati in: C:\AUTOMAZIONE\params\softeners_plan.json
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[16/10/2025 23:50:04,90] Fine trainer auto 
+========================= 
+[17/10/2025 23:50:01,88] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:270: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+✅ Report completo: C:\AUTOMAZIONE\logs\trainer_report_20251017_215002.txt
+🧠 Softeners generati in: C:\AUTOMAZIONE\params\softeners_plan.json
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[17/10/2025 23:50:04,77] Fine trainer auto 
+========================= 
+[18/10/2025 23:50:01,99] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:270: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+✅ Report completo: C:\AUTOMAZIONE\logs\trainer_report_20251018_215002.txt
+🧠 Softeners generati in: C:\AUTOMAZIONE\params\softeners_plan.json
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[18/10/2025 23:50:05,31] Fine trainer auto 
+========================= 
+[19/10/2025 23:50:01,92] Avvio trainer auto 
+C:\AUTOMAZIONE\trainer_suggest.py:47: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:270: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+✅ Report completo: C:\AUTOMAZIONE\logs\trainer_report_20251019_215002.txt
+🧠 Softeners generati in: C:\AUTOMAZIONE\params\softeners_plan.json
+
+=== ODIN AI CALIBRATOR BOOT ===
+AUTO_GATE_ENABLE=True | MODE=AUTO | RETRAIN_JSON=C:\AUTOMAZIONE\params\retrain_metrics.json
+PARAMS_FILE=C:\AUTOMAZIONE\params\current.json
+--------------------------------
+
+Traceback (most recent call last):
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 499, in <module>
+    main()
+  File "C:\AUTOMAZIONE\ai_calibrator.py", line 431, in main
+    print("[BOOT] AutoGate attivo \u2192 applico logica su retrain_metrics.json\n")
+  File "C:\Users\massimomiliani\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 23: character maps to <undefined>
+[19/10/2025 23:50:04,80] Fine trainer auto 

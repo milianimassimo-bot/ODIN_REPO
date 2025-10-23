@@ -1,0 +1,44 @@
+{
+  "id": "115692c9",
+  "asof_utc": "2025-09-25T21:09:57+00:00",
+  "regime_sha1": "4e66f4167683027778624102f30a2d03c1a2ad98",
+  "asset": "SILVER",
+  "bucket": "XAU_XAG",
+  "status": "REJECTED",
+  "signal": {
+    "strategy": "DAILY",
+    "asset": "SILVER",
+    "symbol": "XAG/USD",
+    "direction": "LONG",
+    "timeframe_entry": "H4",
+    "entry": 44.11291,
+    "sl": 42.50889,
+    "tp": 47.32094,
+    "rr": 2.0,
+    "atr_d1": 0.80201,
+    "basis": {
+      "ema20_h4": 44.11291,
+      "ema50_d1": 40.51137,
+      "ema200_d1": 36.41919
+    }
+  },
+  "ai": {
+    "veto": false,
+    "score": 0.75,
+    "note": "Structure OK; no nearby resistance at entry."
+  },
+  "risk": {
+    "accept": false,
+    "reason": "Lot size too small or unsupported",
+    "size_lots": 0.0,
+    "risk_pct": 0.0,
+    "caps_snapshot": {
+      "GLOBAL": 0.0,
+      "BUCKET:XAU_XAG": 0.0,
+      "ASSET:SILVER": 0.0
+    }
+  },
+  "notes": [
+    "RISK_REJECT: Lot size too small or unsupported"
+  ]
+}

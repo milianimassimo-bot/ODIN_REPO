@@ -1,0 +1,9 @@
+[TG] http=200 ok=True resp='{"ok":true,"result":{"message_id":1749,"sender_chat":{"id":-1002752265278,"title":"segnali daily","type":"channel"},"chat":{"id":-1002752265278,"title":"segnali daily","type":"channel"},"date":1761145'
+[HEALTH] • MT5: MT5 OK — equity=5636.72 EUR
+[HEALTH] • ENV: OK
+[HEALTH] • STALENESS:
+[HEALTH]    - Regime report D1: STALE 985 min (> 180) — C:\AUTOMAZIONE\odin_regime_report_d1.json
+[HEALTH]    - Macro overrides.json: STALE 3405 min (> 1440) — C:\AUTOMAZIONE\params\macro_overrides.json
+[HEALTH] • LOG: OK
+[HEALTH] • DISK: 18.73 GB liberi
+[HEALTH] • System UTC: 2025-10-22 15:00:12
